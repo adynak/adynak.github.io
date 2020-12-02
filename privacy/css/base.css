@@ -1,0 +1,146 @@
+html, body, div, h1, h2, h4, a, img {
+	border:				0;
+	font-family:		inherit;
+	font-size:			100%;
+	font-style:			inherit;
+	font-weight:		inherit;
+	line-height:		100%;
+	margin:				0;
+	padding:			0;
+	text-align:			left;
+	vertical-align:		baseline;
+}
+
+a img, :link img, :visited img {
+	border:				0;
+}
+
+body {
+	font-family:		Helvetica,
+						Arial,
+						sans-serif;
+	font-weight:		300;
+	font-size:			17px;
+	color:				#000;
+}
+
+a, p {
+	padding:			0 0 0 0;
+	font-size:			17px;
+	line-height:		22px;
+}
+
+h1 {
+	padding:			8px 0 0 0;
+	font-size:			34px;
+	color:				#3d5b97
+}
+
+h2 {
+	font-size:			28px;
+	color:				#3d5b97
+}
+
+a {
+	color:				#000;
+	margin: 			0 0 0 220px;
+	text-decoration: 	none;
+}
+
+a:hover {
+	text-decoration:	underline;
+}
+
+body {
+	background:			#fff;
+	margin:				0;
+	padding:			0;
+}
+
+#container {
+/*	min-width:			640px;
+	max-width:			768px;
+*/	margin:				0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#logo {
+	float:				right;
+	clear:				right;
+	width:				216px;
+	margin:				5px 10px 0 0;
+}
+
+#menu {
+	float:				right;
+	clear:				right;
+	margin: 			120px 5px 15px 20px;
+}
+
+#menu a {
+	font-size:			20px;
+	line-height:		32px;
+}
+
+#content {
+	clear:				both;
+/*	width:				600px;
+*/	margin:				30px auto 0 20px;
+}
+
+#footer {
+	clear:				both;
+	padding:			20px 0 10px 0;
+	font-size:			13px;
+	text-align:			center;
+	color:				#3d5b97;
+}
+
+.force_clear {
+	clear:				both;
+}
+
+.app {
+	float:				right;
+	width:				277px;
+	margin:				10px;
+	color:				#535250;
+}
+
+ .logo {
+   margin-left: 		2%;
+   float: 				left;
+   height: 				150px;
+   width: 				150px;
+ }
+
+ .container2 {
+   height: 				auto;
+   padding: 			1%;
+   float: 				left;
+ }
+
+ .left {
+   float: 				left;
+   width: 				45px;
+ }
+
+ .right {
+   float: 				left;
+   margin:				0 0 0 5px;
+   width: 				215px;
+ }
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
