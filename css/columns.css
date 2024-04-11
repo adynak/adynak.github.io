@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.columnl {
+  flex: 25%;
+  padding: 10px;
+}
+
+.columnr {
+  flex: 75%;
+  padding: 10px;
+  text-align: center;
+}
