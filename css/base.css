@@ -119,6 +119,13 @@ body {
    width: 				150px;
  }
 
+ .toclogo {
+   margin-left: 		2%;
+   float: 				left;
+   height: 				100px;
+   width: 				100px;
+ }
+
  .container2 {
    height: 				auto;
    padding: 			1%;
