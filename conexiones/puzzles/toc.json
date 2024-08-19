@@ -5,9 +5,11 @@
       "language": "ES",
       "puzzles": [
         {
+          "id": 1000,
           "puzzleID": "1000"
         },
         {
+          "id": 1001,
           "puzzleID": "1001"
         }
       ]
