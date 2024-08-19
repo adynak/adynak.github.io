@@ -1,0 +1,67 @@
+{
+  "id": 1002,
+  "groups": {
+    "DíAS DE LA SEMANA": {
+      "level": 0,
+      "members": [
+        "SáBADO",
+        "DOMINGO",
+        "LUNES",
+        "JUEVES"
+      ]
+    },
+    "ALIMENTOS": {
+      "level": 1,
+      "members": [
+        "HUEVOS",
+        "QUESO",
+        "POLLO",
+        "CAMARóN"
+      ]
+    },
+    "ASTRONOMíA": {
+      "level": 3,
+      "members": [
+        "LUNA",
+        "SOL",
+        "ESTRELLA",
+        "COMETA"
+      ]
+    },
+    "NúMEROS": {
+      "level": 4,
+      "members": [
+        "DOS",
+        "SIETE",
+        "DIEZ",
+        "VEINTE"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "SáBADO",
+      "QUESO",
+      "ESTRELLA",
+      "VEINTE"
+    ],
+    [
+      "JUEVES",
+      "POLLO",
+      "SOL",
+      "DOS"
+    ],
+    [
+      "DOMINGO",
+      "HUEVOS",
+      "COMETA",
+      "DIEZ"
+    ],
+    [
+      "LUNES",
+      "CAMARóN",
+      "LUNA",
+      "SIETE"
+    ]
+  ]
+}
