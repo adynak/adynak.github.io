@@ -1,0 +1,16 @@
+{
+  "ConnectionsTOC": [
+    {
+      "id": 0,
+      "language": "ES",
+      "puzzles": [
+        {
+          "puzzleID": "1000"
+        },
+        {
+          "puzzleID": "1001"
+        }
+      ]
+    }
+  ]
+}

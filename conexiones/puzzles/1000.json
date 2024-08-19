@@ -1,0 +1,67 @@
+{
+  "id": 10,
+  "groups": {
+    "FAMILIA": {
+      "level": 0,
+      "members": [
+        "ABUELA",
+        "TÍO",
+        "HERMANA",
+        "MADRE"
+      ]
+    },
+    "ANIMALES": {
+      "level": 1,
+      "members": [
+        "PERRO",
+        "CABALLO",
+        "ÁGUILA",
+        "MONO"
+      ]
+    },
+    "SALUDOS": {
+      "level": 2,
+      "members": [
+        "CABALLERO",
+        "MAYOR",
+        "HIDALGO",
+        "DON"
+      ]
+    },
+    "COSAS QUE SON AZULES": {
+      "level": 3,
+      "members": [
+        "AGUA",
+        "CIELO",
+        "OJOS",
+        "ARÁNDANOS"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "AGUA",
+      "CABALLERO",
+      "ABUELA",
+      "PERRO"
+    ],
+    [
+      "CABALLO",
+      "OJOS",
+      "MAYOR",
+      "ARÁNDANOS"
+    ],
+    [
+      "MADRE",
+      "DON",
+      "ÁGUILA",
+      "TÍO"
+    ],
+    [
+      "MONO",
+      "CIELO",
+      "HERMANA",
+      "HIDALGO"
+    ]
+  ]
+}
