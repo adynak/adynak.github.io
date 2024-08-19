@@ -1,0 +1,67 @@
+{
+  "id": 1001,
+  "groups": {
+    "FAMILIA": {
+      "level": 0,
+      "members": [
+        "YO",
+        "TÚ",
+        "ÉL",
+        "ELLA"
+      ]
+    },
+    "SER": {
+      "level": 1,
+      "members": [
+        "SOY",
+        "ERES",
+        "ES",
+        "SOMOS"
+      ]
+    },
+    "VER": {
+      "level": 2,
+      "members": [
+        "VEO",
+        "VES",
+        "VE",
+        "VEMOS"
+      ]
+    },
+    "IR": {
+      "level": 3,
+      "members": [
+        "VOY",
+        "VAS",
+        "VAMOS",
+        "VA"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "VOY",
+      "CABALLERO",
+      "YO",
+      "SOY"
+    ],
+    [
+      "ERES",
+      "OJOS",
+      "VES",
+      "VA"
+    ],
+    [
+      "ELLA",
+      "VAMOS",
+      "ES",
+      "TÚ"
+    ],
+    [
+      "SOMOS",
+      "VAS",
+      "ÉL",
+      "VE"
+    ]
+  ]
+}
