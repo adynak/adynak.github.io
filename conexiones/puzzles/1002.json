@@ -20,7 +20,7 @@
       ]
     },
     "ASTRONOMíA": {
-      "level": 3,
+      "level": 2,
       "members": [
         "LUNA",
         "SOL",
@@ -29,7 +29,7 @@
       ]
     },
     "NúMEROS": {
-      "level": 4,
+      "level": 3,
       "members": [
         "DOS",
         "SIETE",

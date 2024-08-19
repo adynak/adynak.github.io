@@ -53,7 +53,7 @@ echo "]";
 echo "},";
 
 echo '"' . $group3Name .'": {';
-echo '"level": 3,';
+echo '"level": 2,';
 echo '"members": [';
 echo '"' . $group3Words['w1'] . '",';
 echo '"' . $group3Words['w2'] . '",';
@@ -63,7 +63,7 @@ echo "]";
 echo "},";
 
 echo '"' . $group4Name .'": {';
-echo '"level": 4,';
+echo '"level": 3,';
 echo '"members": [';
 echo '"' . $group4Words['w1'] . '",';
 echo '"' . $group4Words['w2'] . '",';
