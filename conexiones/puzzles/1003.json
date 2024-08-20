@@ -1,0 +1,67 @@
+{
+  "id": 1003,
+  "groups": {
+    "TERRENO": {
+      "level": 0,
+      "members": [
+        "SIERRA",
+        "VALLE",
+        "RIO",
+        "PAMPA"
+      ]
+    },
+    "ACCIONES DE VENTANA": {
+      "level": 1,
+      "members": [
+        "CIERRA",
+        "ABRE",
+        "CUBRE",
+        "LAVA"
+      ]
+    },
+    "UNIDADES DE TIEMPO": {
+      "level": 2,
+      "members": [
+        "HORA",
+        "MES",
+        "AñO",
+        "QUINCENA"
+      ]
+    },
+    "UN ANHELO POR": {
+      "level": 3,
+      "members": [
+        "ORAR",
+        "DESEAR",
+        "ESPERAR",
+        "DESEO"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "SIERRA",
+      "ABRE",
+      "AñO",
+      "DESEO"
+    ],
+    [
+      "PAMPA",
+      "CUBRE",
+      "MES",
+      "ORAR"
+    ],
+    [
+      "VALLE",
+      "CIERRA",
+      "QUINCENA",
+      "ESPERAR"
+    ],
+    [
+      "RIO",
+      "LAVA",
+      "HORA",
+      "DESEAR"
+    ]
+  ]
+}
