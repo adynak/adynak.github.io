@@ -1,0 +1,67 @@
+{
+  "id": 1005,
+  "groups": {
+    "VERBO IR": {
+      "level": 0,
+      "members": [
+        "VOY",
+        "VAN",
+        "VAS",
+        "VAMOS"
+      ]
+    },
+    "VERBO SER": {
+      "level": 1,
+      "members": [
+        "SOY",
+        "ERES",
+        "ES",
+        "SOMOS"
+      ]
+    },
+    "INTERROGATIVAS": {
+      "level": 2,
+      "members": [
+        "CÓMO",
+        "CUÁNDO",
+        "DÓNDE",
+        "POR QUE"
+      ]
+    },
+    "LÍDERES": {
+      "level": 3,
+      "members": [
+        "JORGE WÁSHINGTON",
+        "MAESTRA DE CEREMONIAS",
+        "PRESIDENTA",
+        "PROFESORA"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "VOY",
+      "ERES",
+      "DÓNDE",
+      "PROFESORA"
+    ],
+    [
+      "VAMOS",
+      "ES",
+      "CUÁNDO",
+      "JORGE WÁSHINGTON"
+    ],
+    [
+      "VAN",
+      "SOY",
+      "POR QUE",
+      "PRESIDENTA"
+    ],
+    [
+      "VAS",
+      "SOMOS",
+      "CÓMO",
+      "MAESTRA DE CEREMONIAS"
+    ]
+  ]
+}

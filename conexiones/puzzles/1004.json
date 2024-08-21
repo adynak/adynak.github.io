@@ -19,13 +19,13 @@
         "POLLO"
       ]
     },
-    "VERBO SER": {
+    "PARA EL DESAYUNO": {
       "level": 2,
       "members": [
-        "SOY",
-        "SOMOS",
-        "ERES",
-        "ES"
+        "JUGO",
+        "HUEVOS",
+        "FRUTA",
+        "PAN"
       ]
     },
     "NOMBRES": {
@@ -42,25 +42,25 @@
     [
       "TOMATE",
       "CHORIZOS",
-      "ERES",
+      "FRUTA",
       "UN"
     ],
     [
       "PAPAS",
       "ARROZ",
-      "SOMOS",
+      "HUEVOS",
       "CINCUENTA"
     ],
     [
       "GUISANTES",
       "CEBOLLA",
-      "ES",
+      "PAN",
       "QUINCE"
     ],
     [
       "PIMENTO VERDE",
       "POLLO",
-      "SOY",
+      "JUGO",
       "DOCE"
     ]
   ]
