@@ -1,0 +1,67 @@
+{
+  "id": 1004,
+  "groups": {
+    "COMESTIBLES": {
+      "level": 0,
+      "members": [
+        "TOMATE",
+        "GUISANTES",
+        "PIMENTO VERDE",
+        "PAPAS"
+      ]
+    },
+    "PAELLA": {
+      "level": 1,
+      "members": [
+        "CEBOLLA",
+        "CHORIZOS",
+        "ARROZ",
+        "POLLO"
+      ]
+    },
+    "SER": {
+      "level": 2,
+      "members": [
+        "SOY",
+        "SOMOS",
+        "ERES",
+        "ES"
+      ]
+    },
+    "NOMBRES": {
+      "level": 3,
+      "members": [
+        "CINCUENTA",
+        "DOCE",
+        "QUINCE",
+        "UN"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "TOMATE",
+      "CHORIZOS",
+      "ERES",
+      "UN"
+    ],
+    [
+      "PAPAS",
+      "ARROZ",
+      "SOMOS",
+      "CINCUENTA"
+    ],
+    [
+      "GUISANTES",
+      "CEBOLLA",
+      "ES",
+      "QUINCE"
+    ],
+    [
+      "PIMENTO VERDE",
+      "POLLO",
+      "SOY",
+      "DOCE"
+    ]
+  ]
+}
