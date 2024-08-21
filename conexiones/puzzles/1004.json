@@ -1,7 +1,7 @@
 {
   "id": 1004,
   "groups": {
-    "COMESTIBLES": {
+    "VERDURAS": {
       "level": 0,
       "members": [
         "TOMATE",
@@ -10,7 +10,7 @@
         "PAPAS"
       ]
     },
-    "PAELLA": {
+    "INGREDIENTES DE LA PAELLA": {
       "level": 1,
       "members": [
         "CEBOLLA",
@@ -19,7 +19,7 @@
         "POLLO"
       ]
     },
-    "SER": {
+    "VERBO SER": {
       "level": 2,
       "members": [
         "SOY",
