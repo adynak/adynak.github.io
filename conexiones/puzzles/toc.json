@@ -6,27 +6,33 @@
       "puzzles": [
         {
           "id": 1000,
-          "puzzleID": "1000"
+          "puzzleID": "1000",
+          "puzzleName": "1000"
         },
         {
           "id": 1001,
-          "puzzleID": "1001"
+          "puzzleID": "1001",
+          "puzzleName": "1000"
         },
         {
           "id": 1002,
-          "puzzleID": "1002"
+          "puzzleID": "1002",
+          "puzzleName": "1000"
         },
         {
           "id": 1003,
-          "puzzleID": "1003"
+          "puzzleID": "1003",
+          "puzzleName": "1000"
         },
         {
           "id": 1004,
-          "puzzleID": "1004"
+          "puzzleID": "1004",
+          "puzzleName": "1000"
         },
         {
           "id": 1005,
-          "puzzleID": "1005"
+          "puzzleID": "1005",
+          "puzzleName": "1000"
         }
       ]
     }
