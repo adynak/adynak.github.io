@@ -25,14 +25,19 @@
           "puzzleName": "Desafiante 1.0"
         },
         {
-          "id": 1004,
-          "puzzleID": "1004",
-          "puzzleName": "Unidad 6.1"
+          "id": 1006,
+          "puzzleID": "1006",
+          "puzzleName": "Unidad 1.1"
         },
         {
           "id": 1005,
           "puzzleID": "1005",
           "puzzleName": "Unidad 5.1"
+        },
+        {
+          "id": 1004,
+          "puzzleID": "1004",
+          "puzzleName": "Unidad 6.1"
         }
       ]
     }

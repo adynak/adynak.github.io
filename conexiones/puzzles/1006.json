@@ -1,0 +1,68 @@
+{
+  "id": 1006,
+  "puzzleName": "Unidad 1.1",
+  "groups": {
+    "EL TAMAñO IMPORTA": {
+      "level": 0,
+      "members": [
+        "ALTO",
+        "GRANDE",
+        "CHICO",
+        "PEQUEñO"
+      ]
+    },
+    "A LO LARGO DE LA AVENIDA": {
+      "level": 1,
+      "members": [
+        "RESTAURANTE",
+        "TIENDA",
+        "TEATRO",
+        "MUSEO"
+      ]
+    },
+    "CARACTERíSTICAS DEL MAPA": {
+      "level": 2,
+      "members": [
+        "ALDEA",
+        "CALLE",
+        "AVENDA",
+        "CUIDAD"
+      ]
+    },
+    "EXCLAMACIONES E INTERJECCIONES": {
+      "level": 3,
+      "members": [
+        "OYE",
+        "PERO",
+        "TAMBIéN",
+        "VALE"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "ALTO",
+      "TIENDA",
+      "AVENDA",
+      "VALE"
+    ],
+    [
+      "PEQUEñO",
+      "TEATRO",
+      "CALLE",
+      "OYE"
+    ],
+    [
+      "GRANDE",
+      "RESTAURANTE",
+      "CUIDAD",
+      "TAMBIéN"
+    ],
+    [
+      "CHICO",
+      "MUSEO",
+      "ALDEA",
+      "PERO"
+    ]
+  ]
+}

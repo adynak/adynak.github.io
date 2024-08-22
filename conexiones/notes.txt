@@ -6,3 +6,5 @@ don't forget to start php
 	php -S 192.168.12.182:8000
 
 http://192.168.12.182:8000/WineGPSSupport/conexiones/puzzles/toc.json
+
+http://192.168.12.182:8000/WineGPSSupport/conexiones/vocab.csv
