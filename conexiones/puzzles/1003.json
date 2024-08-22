@@ -1,7 +1,8 @@
 {
   "id": 1003,
+  "puzzleName": "Fácil 1.2",
   "groups": {
-    "TERRENO": {
+    "TIERRA": {
       "level": 0,
       "members": [
         "SIERRA",

@@ -4,3 +4,5 @@ ip of macbook: 192.168.12.182
 don't forget to start php
 	cd /Library/WebServer/Documents
 	php -S 192.168.12.182:8000
+
+http://192.168.12.182:8000/WineGPSSupport/conexiones/puzzles/toc.json
