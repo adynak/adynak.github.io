@@ -2,7 +2,7 @@
   "id": 1001,
   "puzzleName": "Desafiante 1.0",
   "groups": {
-    "PRONOMBRE": {
+    "PRONOMBRES": {
       "level": 0,
       "members": [
         "YO",
@@ -11,7 +11,7 @@
         "ELLA"
       ]
     },
-    "SER": {
+    "VERBO SER": {
       "level": 1,
       "members": [
         "SOY",
@@ -20,7 +20,7 @@
         "SOMOS"
       ]
     },
-    "VER": {
+    "VERBO VER": {
       "level": 2,
       "members": [
         "VEO",
@@ -29,7 +29,7 @@
         "VEMOS"
       ]
     },
-    "IR": {
+    "VERBO IR": {
       "level": 3,
       "members": [
         "VOY",

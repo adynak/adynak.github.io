@@ -2,11 +2,11 @@
   "id": 1000,
   "puzzleName": "Fácil 1.0",
   "groups": {
-    "FAMILIA": {
+    "MIEMBROS DE LA FAMILIA": {
       "level": 0,
       "members": [
         "ABUELA",
-        "TÍO",
+        "TÍA",
         "HERMANA",
         "MADRE"
       ]
@@ -24,7 +24,7 @@
       "level": 2,
       "members": [
         "CABALLERO",
-        "MAESTRO",
+        "MAESTRA",
         "HIDALGO",
         "DON"
       ]
@@ -49,14 +49,14 @@
     [
       "CABALLO",
       "OJOS",
-      "MAESTRO",
+      "MAESTRA",
       "ARÁNDANOS"
     ],
     [
       "MADRE",
       "DON",
       "ÁGUILA",
-      "TÍO"
+      "TÍA"
     ],
     [
       "MONO",
