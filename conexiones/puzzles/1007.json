@@ -1,0 +1,68 @@
+{
+  "id": 1007,
+    "puzzleName": "Unidad 2 & 3",
+  "groups": {
+    "CANDIDAD": {
+      "level": 0,
+      "members": [
+        "MUCHO",
+        "PEQUEñO",
+        "TODO",
+        "TANTO"
+      ]
+    },
+    "CIUDAD": {
+      "level": 1,
+      "members": [
+        "TEATRO",
+        "RESTAURANTE",
+        "CINE",
+        "MUSEO"
+      ]
+    },
+    "FAMILIA": {
+      "level": 2,
+      "members": [
+        "ABUELA",
+        "ABUELO",
+        "NENE",
+        "HERMAN"
+      ]
+    },
+    "FIESTA": {
+      "level": 3,
+      "members": [
+        "MúSICA",
+        "PIñATA",
+        "TORTA",
+        "RESFRESCOS"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "MUCHO",
+      "RESTAURANTE",
+      "NENE",
+      "RESFRESCOS"
+    ],
+    [
+      "TANTO",
+      "CINE",
+      "ABUELO",
+      "MúSICA"
+    ],
+    [
+      "PEQUEñO",
+      "TEATRO",
+      "HERMAN",
+      "TORTA"
+    ],
+    [
+      "TODO",
+      "MUSEO",
+      "ABUELA",
+      "PIñATA"
+    ]
+  ]
+}

@@ -7,37 +7,50 @@
         {
           "id": 1000,
           "puzzleID": "1000",
-          "puzzleName": "Fácil 1.0"
+          "puzzleName": "Fácil 1.0",
+          "puzzleName_EN": "Easy 1.0"
         },
         {
           "id": 1002,
           "puzzleID": "1002",
-          "puzzleName": "Fácil 1.1"
+          "puzzleName": "Fácil 1.1",
+          "puzzleName_EN": "Easy 1.1"
         },
         {
           "id": 1003,
           "puzzleID": "1003",
-          "puzzleName": "Fácil 1.2"
+          "puzzleName": "Fácil 1.2",
+          "puzzleName_EN": "Easy 1.2"
         },        
         {
           "id": 1001,
           "puzzleID": "1001",
-          "puzzleName": "Desafiante 1.0"
+          "puzzleName": "Desafiante 1.0",
+          "puzzleName_EN": "Difficult 1.0"          
         },
         {
           "id": 1006,
           "puzzleID": "1006",
-          "puzzleName": "Unidad 1.1"
+          "puzzleName": "Unidad 1.1",
+          "puzzleName_EN": "Unit 1.1"          
+        },
+        {
+          "id": 1007,
+          "puzzleID": "1007",
+          "puzzleName": "Unidad 2 & 3",
+          "puzzleName_EN": "Unit 2 & 3"          
         },
         {
           "id": 1005,
           "puzzleID": "1005",
-          "puzzleName": "Unidad 5.1"
+          "puzzleName": "Unidad 5.1",
+          "puzzleName_EN": "Unit 5.1"
         },
         {
           "id": 1004,
           "puzzleID": "1004",
-          "puzzleName": "Unidad 6.1"
+          "puzzleName": "Unidad 6.1",
+          "puzzleName_EN": "Unit 6.1"
         }
       ]
     }

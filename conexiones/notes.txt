@@ -7,4 +7,24 @@ don't forget to start php
 
 http://192.168.12.182:8000/WineGPSSupport/conexiones/puzzles/toc.json
 
-http://192.168.12.182:8000/WineGPSSupport/conexiones/vocab.csv
+http://192.168.12.83:8000/WineGPSSupport/conexiones/vocab.csv
+
+delete from language.es;
+COPY language.es 
+FROM PROGRAM 'curl "http://192.168.12.83:8000/WineGPSSupport/conexiones/vocab.csv" -H "Content-Type: application/json;charset=ISO-8859-1"'
+DELIMITER ',' 
+CSV HEADER
+ENCODING 'ISO 8859-1';
+
+SELECT vocabulary, COUNT(id)
+FROM language.es
+GROUP BY vocabulary
+HAVING COUNT(id) > 1
+ORDER BY COUNT(id);
+
+SELECT * from language.es
+WHERE vocabulary like '%%'
+order by vocabulary;
+
+DELETE FROM language.es
+WHERE ID in (355);
