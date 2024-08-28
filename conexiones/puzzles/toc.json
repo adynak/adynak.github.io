@@ -51,6 +51,12 @@
           "puzzleID": "1004",
           "puzzleName": "Unidad 6.1",
           "puzzleName_EN": "Unit 6.1"
+        },
+        {
+          "id": 1009,
+          "puzzleID": "100",
+          "puzzleName": "Unidad 7 & 9",
+          "puzzleName_EN": "Unit 7 & 9"          
         }
       ]
     }

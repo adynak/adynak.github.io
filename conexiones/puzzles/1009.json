@@ -1,0 +1,67 @@
+{
+  "id": 1009,
+  "groups": {
+    "SALUDOS": {
+      "level": 0,
+      "members": [
+        "¡HOLA! ",
+        "¿QUé TAL? ",
+        "BIENVENIDA",
+        "¿CóMO ESTáS?"
+      ]
+    },
+    "¿QUé HORA ES?": {
+      "level": 1,
+      "members": [
+        "MEDIODíA",
+        "MEDIA HORA",
+        "MEDIANOCHE",
+        "TRES Y MEDIA."
+      ]
+    },
+    "TEMPORADA": {
+      "level": 2,
+      "members": [
+        "PRIMAVERA",
+        "VERANO",
+        "OTOñO",
+        "INVIERNO"
+      ]
+    },
+    "HORTICULTURA": {
+      "level": 3,
+      "members": [
+        "FLOR",
+        "áRBOL",
+        "JARDíN",
+        "HOJAS"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "¡HOLA! ",
+      "MEDIA HORA",
+      "OTOñO",
+      "HOJAS"
+    ],
+    [
+      "¿CóMO ESTáS?",
+      "MEDIANOCHE",
+      "VERANO",
+      "FLOR"
+    ],
+    [
+      "¿QUé TAL? ",
+      "MEDIODíA",
+      "INVIERNO",
+      "JARDíN"
+    ],
+    [
+      "BIENVENIDA",
+      "TRES Y MEDIA.",
+      "PRIMAVERA",
+      "áRBOL"
+    ]
+  ]
+}
