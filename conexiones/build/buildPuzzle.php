@@ -30,6 +30,7 @@ function changeStringsToUpperCase($array)
 
 echo "{";
 echo '  "id": 1000,';
+echo '  "puzzleName": "*******",';
 echo '  "groups": {';
 
 echo '"' . $group1Name .'": {';
