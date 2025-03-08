@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conexiones</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="#">
+    </head>
+    <body>
+        <!-- <h1>Conexiones</h1>
+        <h3>¡Crea cuatro grupos de cuatro!</h3> -->
+        <h4>Conexiones</h4>
+        <!-- <br> -->
+        <h5>¡Crea cuatro grupos de cuatro!</h5>
+        <br>
+        <div class="modal" id="modal">
+            <div class="modal-content" id="modal-content">
+            </div>
+        </div>
+        <div class="square-container"></div>
+        <div class ="submit-container">
+            <div class="guess-container">
+                <p>Mistakes remaining:</p>
+                <div class="circle" id="circle1"></div>
+                <div class="circle" id="circle2"></div>
+                <div class="circle" id="circle3"></div>
+                <div class="circle" id="circle4"></div>
+            </div>
+            <div class="submit-btn-container">
+                <button class="btn-pill" onclick="shuffle()">Barajar</button>
+                <button class="btn-pill btn-lg" onclick="deselectAll()">Deseleccionar</button>
+                <button class="btn-pill" onclick="makeGuess()">Entregar</button>
+            </div>
+            <br>
+            <div class="newGame">
+                <button class="btn-pill btn-lg" onclick="newGame()">Nuevo Juego</button>
+            </div>            
+        </div>
+        <script src="puzzles.js"></script>
+        <script src="functions.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
