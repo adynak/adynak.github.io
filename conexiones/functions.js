@@ -21,47 +21,81 @@ function makeGuess() {
             const firstGroup = activeButtons[0].getAttribute('group');
             let correct = true;
 
+            let guessColors = [];
+
             let guessGroups = "";
             for (let i = 0; i < activeButtons.length; i++) {
                 switch (activeButtons[i].getAttribute('group')) {
                     case ("easy"):
                         guessGroups += ("🟨");
+                        guessColors.push("yellow");
                         break;
                     case ("medium"):
                         guessGroups += ("🟩");
+                        guessColors.push("green");
                         break;
                     case ("harder"):
                         guessGroups += ("🟦");
+                        guessColors.push("blue");
                         break;
                     case ("difficult"):
                         guessGroups += ("🟪");
+                        guessColors.push("pink");
                         break;
                 }
+
                 if (activeButtons[i].getAttribute('group') !== firstGroup) {
                     correct = false;
                 }
             }
+
             gameRecord.push(guessGroups);
-            // console.log(gameRecord);
 
             if (correct) {
-                // console.log('correct');
+                toggleOffByOneDiv()
                 moveSolvedToNextRow(activeButtons, firstGroup, true);
             } else { // On incorrect guess
+                didWeGetThreeCorrect(guessColors);
                 shakeActiveButtons();
                 guesses--;
                 updateGuesses();
                 if (guesses == 0) {
                     // console.log('guesses used up');
+                    // toggleOffByOneDiv();
                     solvePuzzle();
                 }
             }
 
             guessInProgress = false;
 
-        }) ();
-        
+        })();
+
     }
+}
+
+function didWeGetThreeCorrect(guessColors){
+    debugger;
+    var count = {};
+    var offByOne = false ;
+    guessColors.forEach(function(i) { count[i] = (count[i]||0) + 1;});
+
+    if (count.yellow == 3) {
+        offByOne = true;
+    }
+    if (count.green == 3) {
+        offByOne = true;
+    }
+    if (count.blue == 3) {
+        offByOne = true;
+    }
+    if (count.pink == 3) {
+        offByOne = true;
+    }
+
+    if (offByOne) {
+        toggleOnByOneDiv();
+    }
+
 }
 
 // Updates guess counter for UI
@@ -131,32 +165,32 @@ function swapButtons(button1, button2) {
     // Add animate-swap class to trigger the transition
     button1.classList.add('animate-swap');
     button2.classList.add('animate-swap');
-    
+
     // Swap attributes after animation
     // setTimeout(() => {
-        //Swap position attributes (1-indexed)
-        //button1.setAttribute('position', button2.getAttribute('position'));
-        //button2.setAttribute('position', tempPos);
+    //Swap position attributes (1-indexed)
+    //button1.setAttribute('position', button2.getAttribute('position'));
+    //button2.setAttribute('position', tempPos);
 
-        // Swap group attributes
-        button1.setAttribute('group', button2.getAttribute('group'));
-        button2.setAttribute('group', tempGroup);
+    // Swap group attributes
+    button1.setAttribute('group', button2.getAttribute('group'));
+    button2.setAttribute('group', tempGroup);
 
-        // Swap text content
-        button1.textContent = button2.textContent;
-        button2.textContent = tempText;
+    // Swap text content
+    button1.textContent = button2.textContent;
+    button2.textContent = tempText;
 
-        // Swap font size attributes
-        button1.style.fontSize = button2.style.fontSize;
-        button2.style.fontSize = tempFontSize;
+    // Swap font size attributes
+    button1.style.fontSize = button2.style.fontSize;
+    button2.style.fontSize = tempFontSize;
 
-        // Reset transforms
-        button1.style.transform = '';
-        button2.style.transform = '';
+    // Reset transforms
+    button1.style.transform = '';
+    button2.style.transform = '';
 
-        // Remove the animate-swap class
-        button1.classList.remove('animate-swap');
-        button2.classList.remove('animate-swap');
+    // Remove the animate-swap class
+    button1.classList.remove('animate-swap');
+    button2.classList.remove('animate-swap');
 
     // }, 1);
 
@@ -176,13 +210,13 @@ function shakeActiveButtons() {
             }
         });
     });
-    
+
 }
 
 // Hopping buttons animation (async: must finish before evaluating guess)
 async function hopActiveButtons() {
     const activeButtons = document.querySelectorAll('.square.active');
-    
+
     activeButtons.forEach((button, index) => {
 
         setTimeout(() => {
@@ -204,10 +238,10 @@ function delay(ms) {
 }
 
 function randomIntFromInterval(min, max) { // min and max included 
-  return Math.floor(Math.random() * (max - min + 1) + min);
+    return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-function newGame(){
+function newGame() {
     location.reload();
 }
 
@@ -228,20 +262,20 @@ async function solvePuzzle() {
                 break;
             }
         }
-        
+
         //buttons in the easiest yet unsolved group
         const solvedCategory = buttons.filter(button => button.getAttribute('group') === difficultyToSolve);
         moveSolvedToNextRow(solvedCategory, difficultyToSolve, false);
     }
 }
 
-function keepTrackOfActiveCells(buttons){
+function keepTrackOfActiveCells(buttons) {
 
     let buttonIndex = buttons.length
     let activeButtons = Array();
 
-    for (i = 0 ; i < buttonIndex ; i ++) {
-        if (buttons[i].classList.contains('active')){
+    for (i = 0; i < buttonIndex; i++) {
+        if (buttons[i].classList.contains('active')) {
             activeButtons.push(buttons[i].textContent.toUpperCase());
         }
     }
@@ -252,10 +286,10 @@ function keepTrackOfActiveCells(buttons){
 // Shuffle squares into random order
 function shuffle() {
     const buttons = document.querySelectorAll('.square.unsolved');
-    let buttonIndex = buttons.length , t, i;
+    let buttonIndex = buttons.length,
+        t, i;
 
     selectedButtons = keepTrackOfActiveCells(buttons);
-    console.log(activeButtons);
 
     // While there remain elements to shuffle…
     while (buttonIndex) {
@@ -267,7 +301,7 @@ function shuffle() {
 
         movingFromClassList = currentButton.classList;
         movingToClassList = buttons[i].classList;
-        
+
         swapButtons(currentButton, buttons[i]);
         buttons[i] = currentButton;
 
@@ -276,17 +310,17 @@ function shuffle() {
     toggleActive(buttons, selectedButtons);
 }
 
-function toggleActive(buttons, activeButtons){
+function toggleActive(buttons, activeButtons) {
     buttons.forEach(button => {
         if (button.classList.contains('active')) {
             button.classList.toggle('active');
         }
     });
-        let buttonIndex = buttons.length
-    for (i = 0 ; i < buttonIndex ; i ++ ){
+    let buttonIndex = buttons.length
+    for (i = 0; i < buttonIndex; i++) {
         buttonText = buttons[i].textContent.toUpperCase();
-        if (activeButtons.includes(buttonText))  {
-             buttons[i].classList.toggle('active');
+        if (activeButtons.includes(buttonText)) {
+            buttons[i].classList.toggle('active');
         }
     }
 }
@@ -313,7 +347,7 @@ function openModal(result) {
             title = "¡Suerte!"
             break;
     }
-    
+
     if (result == 1) { //win
         modalContent.innerHTML = `<h4>${title}</h4>
                                   <p>${gameRecord.map(row => row).join('<br>')}</p>
@@ -322,14 +356,14 @@ function openModal(result) {
     } else { //loss
         modalContent.innerHTML = `<h4>Next time...</h4>
                                   <p>${gameRecord.map(row => row).join('<br>')}</p>
-                                  <button class="modal-button" onclick="closeModal()">OK</button>`;                              
+                                  <button class="modal-button" onclick="closeModal()">OK</button>`;
     }
 }
 
 function levelSolved(overlayLevel) {
     const buttons = document.querySelectorAll('.square');
 
-    const button =  buttons[(nextRow - 1) * 4];//document.querySelector('.square');
+    const button = buttons[(nextRow - 1) * 4]; //document.querySelector('.square');
     //const buttonRect = button.getBoundingClientRect();
 
     const updateOverlayPosition = () => {
@@ -343,7 +377,8 @@ function levelSolved(overlayLevel) {
     overlay.id = `${overlayLevel}-overlay`;
 
     overlay.innerHTML = `<h5>${json[gameID][overlayLevel][0].toUpperCase()}</h5>
-                        <p>${json[gameID][overlayLevel][1].map(word => word).join(', ').toUpperCase()}</p>`;
+                         <br>
+                         <h6>${json[gameID][overlayLevel][1].map(word => word).join(', ').toUpperCase()}</h6>`;
     overlay.style.textAlign = 'center';
 
     overlay.style.position = 'absolute';
@@ -364,4 +399,14 @@ function closeModal() {
 
 function randomSelection(array) {
     return array[Math.floor(Math.random() * array.length)];
+}
+
+function toggleOffByOneDiv() {
+  var x = document.getElementById("almost");
+  x.style.display = "none";
+}
+
+function toggleOnByOneDiv() {
+  var x = document.getElementById("almost");
+    x.style.display = "inline";
 }
