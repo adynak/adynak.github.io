@@ -1,5 +1,5 @@
 //  {"easy":["title",["clue","clue","clue","clue"]],"medium":["title",["clue","clue","clue","clue"]],"harder":["title",["clue","clue","clue","clue"]],"difficult":["title",["clue","clue","clue","clue"]]},
-//  {"easy":[],"medium":[],"harder":[],"difficult":[]},
+//{"easy":[],"medium":[],"harder":[],"difficult":[]},
 
 let json = [
     {"easy":["FAMILIA FEMENINA",["TIA","ABUELA","HERMANA","MADRE"]],"medium":["FAMILIA MASCULINA",["TIO","ABUELO","HEMARNO","PADRE"]],"harder":["AMIGO MASCULINA",["AMIGO","COMPAÑERO","AMIGOTE","CHICO"]],"difficult":["AMIGA FEMENINA",["AMIGA","COMPAÑERA","AMIGOTA","CHICA"]]},
@@ -12,6 +12,9 @@ let json = [
     {"easy":["EL TAMAÑO IMPORTA",["ALTO","GRANDE","CHICO","PEQUEÑO"]],"medium":["CARACTERÍSTICAS DEL MAPA",["ALDEA","CALLE","AVENDA","CUIDAD"]],"harder":["EXCLAMACIONES E INTERJECCIONES",["OYE","PERO","TAMBIÉN","VALE"]],"difficult":["A LO LARGO DE LA AVENIDA",["RESTAURANTE","TIENDA","TEATRO","MUSEO"]]},
     {"easy":["CANDIDAD",["MUCHO","PEQUEÑO","TODO","TANTO"]],"medium":["FIESTA",["MÚSICA","PIÑATA","TORTA","RESFRESCOS"]],"harder":["INTERROGATIVAS",["CÓMO","CUÁNDO","DÓNDE","POR QUÉ"]],"difficult":["COMUNIDAD AUTÓNOMA",["ANDALUSIA","ASTURIAS","CANTABRIA","GALICIA"]]},
     {"easy":["SALUDOS",["¡HOLA! ","¿QUÉ TAL? ","BIENVENIDA","¿CóMO ESTÁS?"]],"medium":["¿QUÉ HORA ES?",["MEDIODÍA","MEDIA HORA","MEDIANOCHE","TRES Y MEDIA"]],"harder":["TEMPORADA",["PRIMAVERA","VERANO","OTOÑO","INVIERNO"]],"difficult":["HORTICULTURA",["FLOR","ÁRBOL","JARDÍN","HOJAS"]]},
-    {"easy":["VERBOS IRREGULAR - VOLVER",["VOLVER","VUELO","VUELVE","VOLVÉIS"]],"medium":["VERBOS IRREGULAR - TRAER",["TRAER","TRAIGO","TRAE","TRAÉIS"]],"harder":["VERBOS IRREGULAR - SOÑAR",["SOÑAR","SUEÑO","SUEÑA","SOÑAIS"]],"difficult":["VERBOS IRREGULAR - QUERER",["QUERER","QUIERO","QUIERE","QUERÉIS"]]},    
-    {"easy":["LOS OJOS",["AZULES","GRISES","VERDES","MARRONES"]],"medium":["ANIMALES",["PERRO","CABALLO","ÁGUILA","MONO"]],"harder":["SALUDOS",["CABALLERO","MAESTRA","HIDALGO","DON"]],"difficult":["COSAS QUE SON AZULES",["MAR","CIELO","OJOS","ARÁNDANOS"]]}
+    {"easy":["VERBOS IRREGULAR - VOLVER",["VOLVER","VUELO","VUELVE","VOLVÉIS"]],"medium":["VERBOS IRREGULAR - TRAER",["TRAER","TRAIGO","TRAE","TRAÉIS"]],"harder":["VERBOS IRREGULAR - SOÑAR",["SOÑAR","SUEÑO","SUEÑA","SOÑAIS"]],"difficult":["VERBOS IRREGULAR - QUERER",["QUERER","QUIERO","QUIERE","QUERÉIS"]]},
+    {"easy":["QUÁNDO",["HOY","AYER","PRONTO","MAÑANA"]],"medium":["DIRECCIONES",["LEJOS","ALLI","ENTRE","JUNTO"]],"harder":["EL CLIMA",["VENTOSO","LLUEVE","NUBLADO","FRESCO"]],"difficult":["BUSCANDO CASA",["VENTA","AQUILAR","PRÉSTAMO","COMPRA"]]},
+    {"easy":["LA ROPA",["CAMISA","PANTALONES","MEDIAS","FALADA"]],"medium":["COLOR DE PELO",["CALVO","RUBIO","MORENO","PELIRROJA"]],"harder":["JOYAS",["PENDIENTES","PULSERA","COLLAR","RELOJ"]],"difficult":["EN TUS PIES",["ZAPATOS","SANDALIAS","BOTAS","CALCETINES"]]},
+    {"easy":["COMER CON",["TAZA","TENEDOR","VASO","CUCHILLO"]],"medium":["LAS LEGUMBREA",["CEBOLLA","PAPA","ESPINACA","ZANAHORIA"]],"harder":["LAS FRUTAS",["MANZANA","UVAS","NARANJA","FRESA"]],"difficult":["LAS BEBIDAS",["CERVESA","VINO","REFRESCO","CAFÉ"]]},
+    {"easy":["LOS OJOS",["AZULES","GRISES","VERDES","MARRONES"]],"medium":["ANIMALES",["PERRO","CABALLO","ÁGUILA","MONO"]],"harder":["SALUDOS",["CABALLERO","MAESTRA","HIDALGO","DON"]],"difficult":["COSAS QUE SON AZULES",["MAR","CIELO","OJOS","ARÁNDANOS"]]}    
 ];
