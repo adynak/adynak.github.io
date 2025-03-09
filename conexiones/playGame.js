@@ -1,4 +1,13 @@
-let gameID = randomIntFromInterval(0, json.length - 1);
+// var gameID = randomIntFromInterval(0, json.length - 1);
+var gamePointers = Array.from(json.keys());
+
+// let gameID = getCookie("gameNumbers");
+
+// if (gameID == "") {
+    gameID = randomIntFromInterval(0, json.length - 1);
+// }
+
+var thisGame = json[gameID];
 
 const squareContainer = document.querySelector('.square-container');
 let activeCount = 0; // number of selected squares
@@ -9,8 +18,8 @@ let gameRecord = []; // records guesses made
 let wordList = []; // list of words to populate squares
 
 // Create list of word and difficulty
-for (const difficulty in json[gameID]) {
-    const group = json[gameID][difficulty][1];
+for (const difficulty in thisGame) {
+    const group = thisGame[difficulty][1];
     for (const posOfWord in group) {
         wordList.push([difficulty, group[posOfWord]]);
     }

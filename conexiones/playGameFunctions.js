@@ -74,7 +74,6 @@ function makeGuess() {
 }
 
 function didWeGetThreeCorrect(guessColors){
-    debugger;
     var count = {};
     var offByOne = false ;
     guessColors.forEach(function(i) { count[i] = (count[i]||0) + 1;});
@@ -113,7 +112,7 @@ function updateGuesses() {
 
 // Move solved squares to next available row
 async function moveSolvedToNextRow(activeButtons, difficulty, user) {
-    ordering = json[gameID][difficulty][1]; //ordering of category
+    ordering = thisGame[difficulty][1]; //ordering of category
     startRowIndex = (nextRow - 1) * 4 + 1;
 
     buttonsInRow = document.querySelectorAll(`
@@ -242,6 +241,18 @@ function randomIntFromInterval(min, max) { // min and max included
 }
 
 function newGame() {
+    // console.log("old  gamePointers = ", gamePointers);
+    // console.log("playing this game:",gameID);
+    // let gameIndex = gamePointers.indexOf(gameID);
+    // console.log("gameIndex = ", gameIndex);
+    // console.log("remove ", gameID, " from ", gamePointers);
+    // gamePointers.splice(gameIndex, 1); 
+    // console.log("new gamePointers = ", gamePointers);
+    // gameID = randomIntFromInterval(0, gamePointers.length - 1);
+    // thisGame = json[0];
+    // updateGuesses();
+
+    // debugger;
     location.reload();
 }
 
@@ -252,7 +263,7 @@ async function solvePuzzle() {
         difficultyToSolve = ''
         const buttonsList = document.querySelectorAll('.square.unsolved');
         const buttons = Array.from(buttonsList);
-        const difficultyOrder = Object.keys(json[gameID]);
+        const difficultyOrder = Object.keys(thisGame);
         // console.log(difficultyOrder);
 
         for (let difficulty of difficultyOrder) {
@@ -376,9 +387,9 @@ function levelSolved(overlayLevel) {
     overlay.className = 'overlay';
     overlay.id = `${overlayLevel}-overlay`;
 
-    overlay.innerHTML = `<h5>${json[gameID][overlayLevel][0].toUpperCase()}</h5>
+    overlay.innerHTML = `<h5>${thisGame[overlayLevel][0].toUpperCase()}</h5>
                          <br>
-                         <h6>${json[gameID][overlayLevel][1].map(word => word).join(', ').toUpperCase()}</h6>`;
+                         <h6>${thisGame[overlayLevel][1].map(word => word).join(', ').toUpperCase()}</h6>`;
     overlay.style.textAlign = 'center';
 
     overlay.style.position = 'absolute';
@@ -409,4 +420,36 @@ function toggleOffByOneDiv() {
 function toggleOnByOneDiv() {
   var x = document.getElementById("almost");
     x.style.display = "inline";
+}
+
+function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  // let gameNumber = getCookie("gameNumbers");
+  // if (gameNumber != "") {
+  //   console.log("gameNumber cookie is " , gameNumber)
+  // } else {
+  //      setCookie("gameNumber", 3 , 30);
+  // }
 }
