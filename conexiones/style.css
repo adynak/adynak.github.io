@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
     overflow-y: auto;
@@ -12,6 +12,9 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+/*    transform: scale(0.9);
+   transform-origin: 0 0;*/
+   zoom: 65%;
 }
 
 h1 {
