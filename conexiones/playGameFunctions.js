@@ -5,6 +5,7 @@ function deselectAll() {
             button.classList.toggle('active');
         }
     });
+    toggleOffByOneDiv();
     activeCount = 0;
 };
 
