@@ -447,10 +447,34 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-  // let gameNumber = getCookie("gameNumbers");
-  // if (gameNumber != "") {
-  //   console.log("gameNumber cookie is " , gameNumber)
-  // } else {
-  //      setCookie("gameNumber", 3 , 30);
-  // }
+  var gamesArray = Array();
+  var gameNumber = -1;
+  var gameInde  = -1;
+  var newCookieValue = "";
+  let cookieGames = getCookie("gameNumbers");
+  if (cookieGames == "") {
+    gamesArray = Array.from(json.keys());
+    gameNumber = gamesArray[Math.floor(Math.random()*gamesArray.length)];
+    gameIndex = gamesArray.indexOf(gameNumber);
+    gamesArray.splice(gameIndex, 1); 
+    newCookieValue = gamesArray.toString();
+    setCookie("gameNumbers",newCookieValue,30);
+  } else {
+    gamesArray = cookieGames.split(",");
+    if (gamesArray.length == 1) {
+        gameNumber = cookieGames;
+        gamesArray = Array.from(json.keys());
+        newCookieValue = gamesArray.toString();
+        setCookie("gameNumbers",newCookieValue,30);
+    } else {
+        gameNumber = gamesArray[Math.floor(Math.random()*gamesArray.length)];
+        gameIndex = gamesArray.indexOf(gameNumber);
+        gamesArray.splice(gameIndex, 1); 
+        newCookieValue = gamesArray.toString();
+        setCookie("gameNumbers",newCookieValue,30);
+    }
+  }
+  // gameNumber = gameNumber.replace(/\,/g,'');
+  gameNumber = parseInt(gameNumber);
+  return gameNumber;
 }

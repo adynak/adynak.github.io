@@ -1,13 +1,17 @@
 // var gameID = randomIntFromInterval(0, json.length - 1);
-var gamePointers = Array.from(json.keys());
+// var gamePointers = Array.from(json.keys());
 
 // let gameID = getCookie("gameNumbers");
 
 // if (gameID == "") {
-    gameID = randomIntFromInterval(0, json.length - 1);
+    gameID = checkCookie();
 // }
 
 var thisGame = json[gameID];
+
+// let zz = checkCookie();
+// console.log(zz);
+// debugger;
 
 const squareContainer = document.querySelector('.square-container');
 let activeCount = 0; // number of selected squares
