@@ -93,7 +93,10 @@ function didWeGetThreeCorrect(guessColors){
     }
 
     if (offByOne) {
-        toggleOnByOneDiv();
+        // toggleOnByOneDiv();
+        var x = document.getElementById("toast");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
     }
 
 }
@@ -366,7 +369,7 @@ function openModal(result) {
                                   <button class="modal-button" onclick="closeModal()">OK</button>`;
 
     } else { //loss
-        modalContent.innerHTML = `<h4>Next time...</h4>
+        modalContent.innerHTML = `<h4>¡Lo siento!</h4>
                                   <p>${gameRecord.map(row => row).join('<br>')}</p>
                                   <button class="modal-button" onclick="closeModal()">OK</button>`;
     }
