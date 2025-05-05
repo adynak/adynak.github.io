@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="puzzles.js"></script>
+    <style>
+        .btn-pill {
+          border: 1px solid black;
+          background-color: lightblue;
+          padding-top: 50px;
+          padding-right: 30px;
+          padding-bottom: 50px;
+          padding-left: 80px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Conexiones Answers</h2>
+<div class="btn-pill" id="demo0"></div>
+<div class="btn-pill" id="demo1"></div>
+
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<p id="demo4"></p>
+<p id="demo5"></p>
+
+<p id="demo6"></p>
+<p id="demo7"></p>
+
+<script>
+const myJSON = '{"name":"John", "age":30, "cars":["Ford", "BMW", "Fiat"]}';
+const myObj = JSON.parse(myJSON);
+// let json = [
+//     {"easy":["LOS OJOS",["AZULES","GRISES","VERDES","MARRONES"]],"medium":["ANIMALES",["PERRO","CABALLO","ÁGUILA","MONO"]],"harder":["SALUDOS",["CABALLERO","MAESTRA","HIDALGO","DON"]],"difficult":["COSAS QUE SON AZULES",["MAR","CIELO","OJOS","ARÁNDANOS"]]}    
+// ];
+let z0 = json[0].easy;
+let z1 = json[0].medium;
+let z2 = json[0].harder;
+let z3 = json[0].difficult;
+
+
+document.getElementById("demo0").innerHTML = "easy: " + z0[0];
+document.getElementById("demo1").innerHTML = z0[1];
+
+document.getElementById("demo2").innerHTML = "medium: " + z1[0];
+document.getElementById("demo3").innerHTML = z1[1];
+
+
+document.getElementById("demo4").innerHTML = "harder: " + z2[0];
+document.getElementById("demo5").innerHTML = z2[1];
+
+document.getElementById("demo6").innerHTML = "difficult: " + z3[0];
+document.getElementById("demo7").innerHTML = z3[1];
+
+</script>
+
+</body>
+</html>
