@@ -5,7 +5,7 @@ function deselectAll() {
             button.classList.toggle('active');
         }
     });
-    toggleOffByOneDiv();
+    // toggleOffByOneDiv();
     activeCount = 0;
 };
 
@@ -53,7 +53,7 @@ function makeGuess() {
             gameRecord.push(guessGroups);
 
             if (correct) {
-                toggleOffByOneDiv()
+                // toggleOffByOneDiv()
                 moveSolvedToNextRow(activeButtons, firstGroup, true);
             } else { // On incorrect guess
                 didWeGetThreeCorrect(guessColors);
@@ -95,8 +95,8 @@ function didWeGetThreeCorrect(guessColors){
     if (offByOne) {
         // toggleOnByOneDiv();
         var x = document.getElementById("toast");
-  x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        x.className = "show";
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 9000);
     }
 
 }
@@ -416,10 +416,10 @@ function randomSelection(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-function toggleOffByOneDiv() {
-  var x = document.getElementById("almost");
-  x.style.display = "none";
-}
+// function toggleOffByOneDiv() {
+//   var x = document.getElementById("almost");
+//   x.style.display = "none";
+// }
 
 function toggleOnByOneDiv() {
   var x = document.getElementById("almost");
