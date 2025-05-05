@@ -34,25 +34,29 @@ for (let i = 1; i <= 16; i++) {
     const randomWord = randomSelection(wordList);
     const square = document.createElement('button');
     square.className = 'square';
-    if (window.innerWidth > 550 ) {
+    // if (window.innerWidth > 550 ) {
+    //     if (randomWord[1].length >= 12) {
+    //         square.style.fontSize = '90%';
+    //     } else if (randomWord[1].length >= 10) {
+    //         square.style.fontSize = '95%';
+    //     } else if (randomWord[1].length >= 7) {
+    //         square.style.fontSize = '100%';
+    //     } else {
+    //         square.style.fontSize = '110%';
+    //     }
+    // } else {
         if (randomWord[1].length >= 12) {
-            square.style.fontSize = '90%';
+            square.style.fontSize = '40%';
         } else if (randomWord[1].length >= 10) {
-            square.style.fontSize = '95%';
-        } else if (randomWord[1].length >= 7) {
-            square.style.fontSize = '100%';
+            square.style.fontSize = '50%';
+        } else if (randomWord[1].length >= 8) {
+            square.style.fontSize = '60%';
+        } else if (randomWord[1].length >= 6) {
+            square.style.fontSize = '65%';           
         } else {
-            square.style.fontSize = '110%';
+            square.style.fontSize = '90%';
         }
-    } else {
-        if (randomWord[1].length >= 10) {
-            square.style.fontSize = '75%';
-        } else if (randomWord[1].length >= 7) {
-            square.style.fontSize = '80%';
-        } else {
-            square.style.fontSize = '100%';
-        }
-    }
+    // }
     square.setAttribute('group', randomWord[0]);
     square.setAttribute('position', i);
     square.classList.add('unsolved');

@@ -95,15 +95,16 @@ h6 {
     transition: background-color 0.15s ease;
     color: rgb(37, 37, 37);
     margin-right: 10px;
+    font-size: 90%;
 }
 
 .btn-pill:active {
-    color: white;
+    color: red;
     background-color: rgb(37, 37, 37);
 }
 
 .btn-lg {
-    width: 150px;
+    width: 155px;
 }
 
 .guess-container {
