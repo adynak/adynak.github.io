@@ -1,59 +1,174 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <script src="puzzles.js"></script>
     <style>
-        .btn-pill {
-          border: 1px solid black;
-          background-color: lightblue;
-          padding-top: 50px;
-          padding-right: 30px;
-          padding-bottom: 50px;
-          padding-left: 80px;
-        }
+      .btn-pill {
+        border: 1px solid black;
+        background-color: lightblue;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <h2>Conexiones Answers</h2>
+    <div class="btn-pill" id="demo0">
+      <form action="#">
+        <fieldset>
+          <legend id="easy"></legend>
+          <table>
+            <tr>
+              <td>
+                <input type="text" id="clue00" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue02" name="lname" value="Doe">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" id="clue01" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue03" name="lname" value="Doe">
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend id="medium"></legend>
+          <table>
+            <tr>
+              <td>
+                <input type="text" id="clue10" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue12" name="lname" value="Doe">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" id="clue11" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue13" name="lname" value="Doe">
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend id="harder"></legend>
+          <table>
+            <tr>
+              <td>
+                <input type="text" id="clue20" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue22" name="lname" value="Doe">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" id="clue21" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue23" name="lname" value="Doe">
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend id="difficult"></legend>
+          <table>
+            <tr>
+              <td>
+                <input type="text" id="clue30" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue32" name="lname" value="Doe">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" id="clue31" name="fname" value="John">
+              </td>
+              <td>
+                <input type="text" id="clue33" name="lname" value="Doe">
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <p>
+      <button id="myButton">Next</button>
+    </p>
 
-<h2>Conexiones Answers</h2>
-<div class="btn-pill" id="demo0"></div>
-<div class="btn-pill" id="demo1"></div>
-
-<p id="demo2"></p>
-<p id="demo3"></p>
-
-<p id="demo4"></p>
-<p id="demo5"></p>
-
-<p id="demo6"></p>
-<p id="demo7"></p>
-
-<script>
-const myJSON = '{"name":"John", "age":30, "cars":["Ford", "BMW", "Fiat"]}';
-const myObj = JSON.parse(myJSON);
-// let json = [
-//     {"easy":["LOS OJOS",["AZULES","GRISES","VERDES","MARRONES"]],"medium":["ANIMALES",["PERRO","CABALLO","ÁGUILA","MONO"]],"harder":["SALUDOS",["CABALLERO","MAESTRA","HIDALGO","DON"]],"difficult":["COSAS QUE SON AZULES",["MAR","CIELO","OJOS","ARÁNDANOS"]]}    
-// ];
-let z0 = json[0].easy;
-let z1 = json[0].medium;
-let z2 = json[0].harder;
-let z3 = json[0].difficult;
-
-
-document.getElementById("demo0").innerHTML = "easy: " + z0[0];
-document.getElementById("demo1").innerHTML = z0[1];
-
-document.getElementById("demo2").innerHTML = "medium: " + z1[0];
-document.getElementById("demo3").innerHTML = z1[1];
+    <script>
+      var puzzleID = 0;
+      var z0 = json[puzzleID].easy;
+      var z1 = json[puzzleID].medium;
+      var z2 = json[puzzleID].harder;
+      var z3 = json[puzzleID].difficult;
+      document.getElementById("easy").innerHTML = z0[0];
+      document.getElementById("clue00").value = z0[1][0];
+      document.getElementById("clue01").value = z0[1][1];
+      document.getElementById("clue02").value = z0[1][2];
+      document.getElementById("clue03").value = z0[1][3];
+      document.getElementById("medium").innerHTML = z1[0];
+      document.getElementById("clue10").value = z1[1][0];
+      document.getElementById("clue11").value = z1[1][1];
+      document.getElementById("clue12").value = z1[1][2];
+      document.getElementById("clue13").value = z1[1][3];
+      document.getElementById("harder").innerHTML = z2[0];
+      document.getElementById("clue20").value = z2[1][0];
+      document.getElementById("clue21").value = z2[1][1];
+      document.getElementById("clue22").value = z2[1][2];
+      document.getElementById("clue23").value = z2[1][3];
+      document.getElementById("difficult").innerHTML = z3[0];
+      document.getElementById("clue30").value = z3[1][0];
+      document.getElementById("clue31").value = z3[1][1];
+      document.getElementById("clue32").value = z3[1][2];
+      document.getElementById("clue33").value = z3[1][3];
 
 
-document.getElementById("demo4").innerHTML = "harder: " + z2[0];
-document.getElementById("demo5").innerHTML = z2[1];
+      const button = document.getElementById("myButton");
+      button.addEventListener("click", function() {
+        puzzleID++;
+              var z0 = json[puzzleID].easy;
+      var z1 = json[puzzleID].medium;
+      var z2 = json[puzzleID].harder;
+      var z3 = json[puzzleID].difficult;
+      document.getElementById("easy").innerHTML = z0[0];
+      document.getElementById("clue00").value = z0[1][0];
+      document.getElementById("clue01").value = z0[1][1];
+      document.getElementById("clue02").value = z0[1][2];
+      document.getElementById("clue03").value = z0[1][3];
+      document.getElementById("medium").innerHTML = z1[0];
+      document.getElementById("clue10").value = z1[1][0];
+      document.getElementById("clue11").value = z1[1][1];
+      document.getElementById("clue12").value = z1[1][2];
+      document.getElementById("clue13").value = z1[1][3];
+      document.getElementById("harder").innerHTML = z2[0];
+      document.getElementById("clue20").value = z2[1][0];
+      document.getElementById("clue21").value = z2[1][1];
+      document.getElementById("clue22").value = z2[1][2];
+      document.getElementById("clue23").value = z2[1][3];
+      document.getElementById("difficult").innerHTML = z3[0];
+      document.getElementById("clue30").value = z3[1][0];
+      document.getElementById("clue31").value = z3[1][1];
+      document.getElementById("clue32").value = z3[1][2];
+      document.getElementById("clue33").value = z3[1][3];
 
-document.getElementById("demo6").innerHTML = "difficult: " + z3[0];
-document.getElementById("demo7").innerHTML = z3[1];
-
-</script>
-
-</body>
+      });
+    </script>
+  </body>
 </html>
