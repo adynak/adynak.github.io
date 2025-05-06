@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <script src="puzzles.js"></script> -->
+    <style>
+      .clueBox {
+ width: 100%;
+/*    display: flex;*/
+    justify-content: center;
+    align-content: center;
+
+
+        border: 1px solid black;
+        padding: 10px 20px 10px 20px;
+        max-width: fit-content;
+/*        margin-inline: auto;*/
+      }
+
+      .easy {
+        background-color: rgb(233, 230, 82);
+      }
+
+      .medium {
+        background-color: rgb(132, 199, 59);
+      }
+
+      .harder {
+        background-color: rgb(94, 169, 255);
+      }
+
+      .difficult {
+        background-color: rgb(183, 109, 252);
+      }
+    </style>
+
+  </head>
+  <body>
+    <h2>Conexiones Answers</h2>
+    
+      <form action="#">
+        <div class="clueBox easy">
+            <fieldset>
+              <legend id="easy"></legend>
+              <table>
+                <tr>
+                  <td>
+                    <input type="text" id="clue00" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue02" name="lname" value="Doe">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" id="clue01" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue03" name="lname" value="Doe">
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+        </div>
+        <br>
+        <div class="clueBox medium">
+            <fieldset>
+              <legend id="medium"></legend>
+              <table>
+                <tr>
+                  <td>
+                    <input type="text" id="clue10" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue12" name="lname" value="Doe">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" id="clue11" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue13" name="lname" value="Doe">
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+        </div>
+        <br>
+        <div class="clueBox harder">
+            <fieldset>
+              <legend id="harder"></legend>
+              <table>
+                <tr>
+                  <td>
+                    <input type="text" id="clue20" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue22" name="lname" value="Doe">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" id="clue21" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue23" name="lname" value="Doe">
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+        </div>
+        <br>
+        <div class="clueBox difficult">
+            <fieldset>
+              <legend id="difficult"></legend>
+              <table>
+                <tr>
+                  <td>
+                    <input type="text" id="clue30" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue32" name="lname" value="Doe">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" id="clue31" name="fname" value="John">
+                  </td>
+                  <td>
+                    <input type="text" id="clue33" name="lname" value="Doe">
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    <p>
+      <button id="myButton">Next</button>
+    </p>
+
+    <script>
+      var puzzleID = 0;
+      var z0 = json[puzzleID].easy;
+      var z1 = json[puzzleID].medium;
+      var z2 = json[puzzleID].harder;
+      var z3 = json[puzzleID].difficult;
+      document.getElementById("easy").innerHTML = z0[0];
+      document.getElementById("clue00").value = z0[1][0];
+      document.getElementById("clue01").value = z0[1][1];
+      document.getElementById("clue02").value = z0[1][2];
+      document.getElementById("clue03").value = z0[1][3];
+
+      document.getElementById("medium").innerHTML = z1[0];
+      document.getElementById("clue10").value = z1[1][0];
+      document.getElementById("clue11").value = z1[1][1];
+      document.getElementById("clue12").value = z1[1][2];
+      document.getElementById("clue13").value = z1[1][3];
+
+      document.getElementById("harder").innerHTML = z2[0];
+      document.getElementById("clue20").value = z2[1][0];
+      document.getElementById("clue21").value = z2[1][1];
+      document.getElementById("clue22").value = z2[1][2];
+      document.getElementById("clue23").value = z2[1][3];
+
+      document.getElementById("difficult").innerHTML = z3[0];
+      document.getElementById("clue30").value = z3[1][0];
+      document.getElementById("clue31").value = z3[1][1];
+      document.getElementById("clue32").value = z3[1][2];
+      document.getElementById("clue33").value = z3[1][3];
+
+
+      const button = document.getElementById("myButton");
+      button.addEventListener("click", function() {
+        puzzleID++;
+        var z0 = json[puzzleID].easy;
+        var z1 = json[puzzleID].medium;
+        var z2 = json[puzzleID].harder;
+        var z3 = json[puzzleID].difficult;
+        document.getElementById("easy").innerHTML = z0[0];
+        document.getElementById("clue00").value = z0[1][0];
+        document.getElementById("clue01").value = z0[1][1];
+        document.getElementById("clue02").value = z0[1][2];
+        document.getElementById("clue03").value = z0[1][3];
+
+        document.getElementById("medium").innerHTML = z1[0];
+        document.getElementById("clue10").value = z1[1][0];
+        document.getElementById("clue11").value = z1[1][1];
+        document.getElementById("clue12").value = z1[1][2];
+        document.getElementById("clue13").value = z1[1][3];
+
+        document.getElementById("harder").innerHTML = z2[0];
+        document.getElementById("clue20").value = z2[1][0];
+        document.getElementById("clue21").value = z2[1][1];
+        document.getElementById("clue22").value = z2[1][2];
+        document.getElementById("clue23").value = z2[1][3];
+
+        document.getElementById("difficult").innerHTML = z3[0];
+        document.getElementById("clue30").value = z3[1][0];
+        document.getElementById("clue31").value = z3[1][1];
+        document.getElementById("clue32").value = z3[1][2];
+        document.getElementById("clue33").value = z3[1][3];
+
+      });
+    </script>
+  </body>
+</html>

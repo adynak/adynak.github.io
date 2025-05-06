@@ -1,0 +1,77 @@
+    @charset "utf-8";
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font: 14px Georgia, serif;
+      background: #ccc;
+    }
+
+    article,
+    aside,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+
+    h2 {
+      font: 24px Georgia;
+      margin: 0 0 10px 0;
+    }
+
+    h3 {
+      margin: 0 0 8px 0;
+    }
+
+    p {
+      margin: 0 0 20px 0;
+    }
+
+    #fluid-wrap {
+      width: 70%;
+      margin: 60px auto;
+      padding: 20px;
+      background: #eee;
+      overflow: hidden;
+    }
+
+   #main-content {
+      width: 65%;
+      float: right;
+    }
+
+    .clueBox {
+      border: 1px solid black;
+      padding: 10px 20px 10px 20px;
+    }
+
+    .easy {
+      background-color: rgb(233, 230, 82);
+    }
+
+    .medium {
+      background-color: rgb(132, 199, 59);
+    }
+
+    .harder {
+      background-color: rgb(94, 169, 255);
+    }
+
+    .difficult {
+      background-color: rgb(183, 109, 252);
+    }
+
+    .getClue
+    {
+      font-size:12pt;
+/*      height:20px;
+      font-size:14pt;*/
+    }
