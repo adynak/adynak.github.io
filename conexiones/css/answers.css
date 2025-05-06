@@ -1,77 +1,90 @@
-    @charset "utf-8";
+@charset "utf-8";
 
-    * {
-      margin: 0;
-      padding: 0;
-    }
+* {
+margin: 0;
+padding: 0;
+}
 
-    body {
-      font: 14px Georgia, serif;
-      background: #ccc;
-    }
+body {
+font: 14px Georgia, serif;
+background: #ccc;
+}
 
-    article,
-    aside,
-    figure,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    section {
-      display: block;
-    }
+h2 {
+font: 24px Georgia;
+margin: 0 0 10px 0;
+}
 
-    h2 {
-      font: 24px Georgia;
-      margin: 0 0 10px 0;
-    }
+h3 {
+margin: 0 0 8px 0;
+}
 
-    h3 {
-      margin: 0 0 8px 0;
-    }
+p {
+margin: 0 0 20px 0;
+}
 
-    p {
-      margin: 0 0 20px 0;
-    }
+#fluid-wrap {
+width: 90%;
+margin: 60px auto;
+padding: 20px;
+background: #eee;
+overflow: hidden;
+}
 
-    #fluid-wrap {
-      width: 70%;
-      margin: 60px auto;
-      padding: 20px;
-      background: #eee;
-      overflow: hidden;
-    }
+#main-content {
+width: 65%;
+float: right;
+}
 
-   #main-content {
-      width: 65%;
-      float: right;
-    }
+.clueBox {
+border: 1px solid black;
+padding: 10px 20px 10px 20px;
+}
 
-    .clueBox {
-      border: 1px solid black;
-      padding: 10px 20px 10px 20px;
-    }
+.easy {
+background-color: rgb(233, 230, 82);
+}
 
-    .easy {
-      background-color: rgb(233, 230, 82);
-    }
+.medium {
+background-color: rgb(132, 199, 59);
+}
 
-    .medium {
-      background-color: rgb(132, 199, 59);
-    }
+.harder {
+background-color: rgb(94, 169, 255);
+}
 
-    .harder {
-      background-color: rgb(94, 169, 255);
-    }
+.difficult {
+background-color: rgb(183, 109, 252);
+}
 
-    .difficult {
-      background-color: rgb(183, 109, 252);
-    }
+.getClue
+{
+font-size: 18pt;
+padding-left: 5pt;
+}
 
-    .getClue
-    {
-      font-size:12pt;
-/*      height:20px;
-      font-size:14pt;*/
-    }
+.getTitle {
+font-size: 18pt;
+padding-left: 5pt;
+margin-bottom: 10px;
+width: 100%;
+}
+
+h4 {
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 30px;
+}
+
+th,
+td {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+table {
+border: 1px solid black;
+}
