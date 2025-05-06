@@ -5,7 +5,7 @@
      <script src="js/puzzles.js"></script>
      <link rel="stylesheet" href="css/answers.css">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 <body>
      <div id="fluid-wrap">
@@ -17,18 +17,18 @@
                     <table class="boxMe">
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue00" name="clue00" value="John">
+                                   <input class="getClue" type="text" id="clue00" name="clue00">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue02" name="clue02" value="Doe">
+                                   <input class="getClue" type="text" id="clue02" name="clue02">
                               </td>
                          </tr>
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue01" name="clue01" value="John">
+                                   <input class="getClue" type="text" id="clue01" name="clue01">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue03" name="clue03" value="Doe">
+                                   <input class="getClue" type="text" id="clue03" name="clue03">
                               </td>
                          </tr>
                     </table>
@@ -39,18 +39,18 @@
                     <table class="boxMe">
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue10" name="clue10" value="John">
+                                   <input class="getClue" type="text" id="clue10" name="clue10">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue12" name="clue12" value="Doe">
+                                   <input class="getClue" type="text" id="clue12" name="clue12">
                               </td>
                          </tr>
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue11" name="clue11" value="John">
+                                   <input class="getClue" type="text" id="clue11" name="clue11">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue13" name="clue13" value="Doe">
+                                   <input class="getClue" type="text" id="clue13" name="clue13">
                               </td>
                          </tr>
                     </table>
@@ -61,18 +61,18 @@
                     <table class="boxMe">
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue20" name="clue20" value="John">
+                                   <input class="getClue" type="text" id="clue20" name="clue20">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue22" name="clue22" value="Doe">
+                                   <input class="getClue" type="text" id="clue22" name="clue22">
                               </td>
                          </tr>
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue21" name="clue21" value="John">
+                                   <input class="getClue" type="text" id="clue21" name="clue21">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue23" name="clue23" value="Doe">
+                                   <input class="getClue" type="text" id="clue23" name="clue23">
                               </td>
                          </tr>
                     </table>
@@ -83,18 +83,18 @@
                     <table class="boxMe">
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue30" name="clue30" value="John">
+                                   <input class="getClue" type="text" id="clue30" name="clue30">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue32" name="clue32" value="Doe">
+                                   <input class="getClue" type="text" id="clue32" name="clue32">
                               </td>
                          </tr>
                          <tr>
                               <td>
-                                   <input class="getClue" type="text" id="clue31" name="clue31" value="John">
+                                   <input class="getClue" type="text" id="clue31" name="clue31">
                               </td>
                               <td>
-                                   <input class="getClue" type="text" id="clue33" name="clue33" value="Doe">
+                                   <input class="getClue" type="text" id="clue33" name="clue33">
                               </td>
                          </tr>
                     </table>
@@ -108,8 +108,17 @@
           <div class="d-flex bg-light border py-1">
           <button type="submit" id="newButton" form="puzzleForm" class="btn btn-outline-primary shadow-none flex-fill mx-1">Entregar
           </button>
+
           <button type="button" id="nextButton" class="btn btn-outline-primary shadow-none flex-fill mx-1">Siguiente
           </button>
+
+          <button type="button" id="newButton" onclick="resetForm()" class="btn btn-outline-primary shadow-none flex-fill mx-1">Nuevo
+          </button>
+
+          </div>
+          <div>
+           <label id="newPuzzle">
+           </label>
           </div>
 
           <script src="./js/answers.js"></script>

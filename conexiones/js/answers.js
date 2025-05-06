@@ -50,6 +50,7 @@
   document.getElementById("clue31").value = z3[1][1];
   document.getElementById("clue32").value = z3[1][2];
   document.getElementById("clue33").value = z3[1][3];
+  document.getElementById("newPuzzle").innerHTML = "";
   });
 
   const form = document.querySelector('#puzzleForm');
@@ -84,8 +85,9 @@
     difficultClues += ',"' + data.clue32 + '"' ;
     difficultClues += ',"' + data.clue33 + '"]]}' ;
 
-        console.log(easyClues + mediumClues + harderClues + difficultClues);
+//  console.log(easyClues + mediumClues + harderClues + difficultClues);
 
+    document.getElementById("newPuzzle").innerHTML = easyClues + mediumClues + harderClues + difficultClues;
 
     // fetch('your-api-endpoint', {
     //     method: 'POST',
@@ -95,4 +97,8 @@
     // .then(data => console.log('Success:', data))
     // .catch(error => console.error('Error:', error));
   });
+
+  function resetForm() {
+  document.getElementById("puzzleForm").reset();
+}
 
