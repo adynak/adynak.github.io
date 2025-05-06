@@ -23,8 +23,8 @@
   document.getElementById("clue31").value = z3[1][1];
   document.getElementById("clue32").value = z3[1][2];
   document.getElementById("clue33").value = z3[1][3];
-  const button = document.getElementById("nextButton");
-  button.addEventListener("click", function() {
+  const nextButton = document.getElementById("nextButton");
+  nextButton.addEventListener("click", function() {
   puzzleID++;
   var z0 = json[puzzleID].easy;
   var z1 = json[puzzleID].medium;
@@ -51,3 +51,48 @@
   document.getElementById("clue32").value = z3[1][2];
   document.getElementById("clue33").value = z3[1][3];
   });
+
+  const form = document.querySelector('#puzzleForm');
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    var easyClues = '{"easy":[' + '"' + data.easy + '",[';
+    easyClues += '"' + data.clue00 + '"' ;
+    easyClues += ',"' + data.clue01 + '"' ;
+    easyClues += ',"' + data.clue02 + '"' ;
+    easyClues += ',"' + data.clue03 + '"]],' ;
+
+    var mediumClues = '"medium":[' + '"' + data.medium + '",[';
+    mediumClues += '"' + data.clue10 + '"' ;
+    mediumClues += ',"' + data.clue11 + '"' ;
+    mediumClues += ',"' + data.clue12 + '"' ;
+    mediumClues += ',"' + data.clue13 + '"]],' ;
+
+    var harderClues = '"harder":[' + '"' + data.harder + '",[';
+    harderClues += '"' + data.clue20 + '"' ;
+    harderClues += ',"' + data.clue21 + '"' ;
+    harderClues += ',"' + data.clue22 + '"' ;
+    harderClues += ',"' + data.clue23 + '"]],' ;
+
+    var difficultClues = '"difficult":[' + '"' + data.difficult + '",[';
+    difficultClues += '"' + data.clue30 + '"' ;
+    difficultClues += ',"' + data.clue31 + '"' ;
+    difficultClues += ',"' + data.clue32 + '"' ;
+    difficultClues += ',"' + data.clue33 + '"]]}' ;
+
+        console.log(easyClues + mediumClues + harderClues + difficultClues);
+
+
+    // fetch('your-api-endpoint', {
+    //     method: 'POST',
+    //     body: formData
+    // })
+    // .then(response => response.json())
+    // .then(data => console.log('Success:', data))
+    // .catch(error => console.error('Error:', error));
+  });
+

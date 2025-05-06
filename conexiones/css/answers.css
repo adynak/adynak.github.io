@@ -90,23 +90,13 @@ border: 1px solid black;
 }
 
 .pillButton {
-  background-color: rgb(10, 96, 254);
+background-color: rgb(10, 96, 254);
 text-decoration: none;
-  font-weight: 600;
-  font-size: 30px;
-  color: white;
-  padding: 10px 30px;
-  border-radius: 45px;
+font-weight: 600;
+font-size: 30px;
+color: white;
+padding: 10px 30px;
+border-radius: 45px;
 border: 1px solid black;
-
-/*  border: none;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-  width: 100px;*/
+width: 100px;*/
 }
