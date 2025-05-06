@@ -1,113 +1,117 @@
 <!DOCTYPE html>
 <head>
-  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-  <title>Conexiones Answer Review</title>
-  <script src="js/puzzles.js"></script>
-  <link rel="stylesheet" href="css/answers.css">
+     <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+     <title>Conexiones Answer Review</title>
+     <script src="js/puzzles.js"></script>
+     <link rel="stylesheet" href="css/answers.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 </head>
 <body>
+     <div id="fluid-wrap">
+          <h4>Guía de Respuestas de Conexiones</h4>
+            <form action="" method="get" id="puzzleForm">
 
-  <div id="fluid-wrap">
-    <h4>Guía de Respuestas de Conexiones</h4>
-    <!-- <form action="#"> -->
-        <form action="" method="post">
+               <div class="clueBox easy">
+                    <input class="getTitle" type="text" id="easy" name="easy" value="">
+                    <table class="boxMe">
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue00" name="clue00" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue02" name="clue02" value="Doe">
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue01" name="clue01" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue03" name="clue03" value="Doe">
+                              </td>
+                         </tr>
+                    </table>
+               </div>
+               <br>
+               <div class="clueBox medium">
+                    <input class="getTitle" type="text" id="medium" name="medium" value="">
+                    <table class="boxMe">
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue10" name="clue10" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue12" name="clue12" value="Doe">
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue11" name="clue11" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue13" name="clue13" value="Doe">
+                              </td>
+                         </tr>
+                    </table>
+               </div>
+               <br>
+               <div class="clueBox harder">
+                    <input class="getTitle" type="text" id="harder" name="harder" value="">
+                    <table class="boxMe">
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue20" name="clue20" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue22" name="clue22" value="Doe">
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue21" name="clue21" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue23" name="clue23" value="Doe">
+                              </td>
+                         </tr>
+                    </table>
+               </div>
+               <br>
+               <div class="clueBox difficult">
+                    <input class="getTitle" type="text" id="difficult" name="difficult" value="">
+                    <table class="boxMe">
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue30" name="clue30" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue32" name="clue32" value="Doe">
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+                                   <input class="getClue" type="text" id="clue31" name="clue31" value="John">
+                              </td>
+                              <td>
+                                   <input class="getClue" type="text" id="clue33" name="clue33" value="Doe">
+                              </td>
+                         </tr>
+                    </table>
+               </div>
+               <br>
+          </form>
 
-      <div class="clueBox easy">
-            <input class="getTitle" type="text" id="easy" name="easy" value="">
-          <table class="boxMe">
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue00" name="clue00" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue02" name="clue02" value="Doe">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue01" name="clue01" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue03" name="clue03" value="Doe">
-              </td>
-            </tr>
-          </table>
-      </div>
-      <br>
-      <div class="clueBox medium">
-                      <input class="getTitle" type="text" id="medium" name="medium" value="">
-          <table class="boxMe">
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue10" name="clue10" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue12" name="clue12" value="Doe">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue11" name="clue11" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue13" name="clue13" value="Doe">
-              </td>
-            </tr>
-          </table>
-      </div>
-      <br>
-      <div class="clueBox harder">
-                      <input class="getTitle" type="text" id="harder" name="harder" value="">
-          <table class="boxMe">
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue20" name="clue20" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue22" name="clue22" value="Doe">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue21" name="clue21" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue23" name="clue23" value="Doe">
-              </td>
-            </tr>
-          </table>
-      </div>
-      <br>
-      <div class="clueBox difficult">
-                                <input class="getTitle" type="text" id="difficult" name="difficult" value="">
-          <table class="boxMe">
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue30" name="clue30" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue32" name="clue32" value="Doe">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input class="getClue" type="text" id="clue31" name="clue31" value="John">
-              </td>
-              <td>
-                <input class="getClue" type="text" id="clue33" name="clue33" value="Doe">
-              </td>
-            </tr>
-          </table>
-      </div>
-      <br>
+          <!-- <button class="pillButton" type="submit" form="puzzleForm" value="Submit">Entregar</button> -->
+          <!-- <button class="pillButton" id="myButton">Siguiente</button> -->
 
-      <input class="getClue" type="submit" value="Submit">
+          <div class="d-flex bg-light border py-1">
+          <button type="submit" form="puzzleForm" class="btn btn-outline-primary shadow-none flex-fill mx-1" value="Submit">Entregar
+          </button>
+          <button type="button" id="nextButton" class="btn btn-outline-primary shadow-none flex-fill mx-1">Siguiente
+          </button>
+          </div>
 
-    </form>
-    <!-- <p> -->
-      <button class="getClue" id="myButton">Next</button>
-    <!-- </p> -->
-      <script src="./js/answers.js"></script>
-  </div>
+          <script src="./js/answers.js"></script>
+     </div>
 </body>
 </html>

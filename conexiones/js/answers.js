@@ -23,7 +23,7 @@
   document.getElementById("clue31").value = z3[1][1];
   document.getElementById("clue32").value = z3[1][2];
   document.getElementById("clue33").value = z3[1][3];
-  const button = document.getElementById("myButton");
+  const button = document.getElementById("nextButton");
   button.addEventListener("click", function() {
   puzzleID++;
   var z0 = json[puzzleID].easy;
