@@ -26,6 +26,9 @@
   const nextButton = document.getElementById("nextButton");
   nextButton.addEventListener("click", function() {
   puzzleID++;
+  if (puzzleID == json.length) {
+    puzzleID = 0;
+  }
   var z0 = json[puzzleID].easy;
   var z1 = json[puzzleID].medium;
   var z2 = json[puzzleID].harder;
@@ -61,29 +64,29 @@
     const formData = new FormData(form);
     const data = Object.fromEntries(formData.entries());
 
-    var easyClues = '{"easy":[' + '"' + data.easy + '",[';
-    easyClues += '"' + data.clue00 + '"' ;
-    easyClues += ',"' + data.clue01 + '"' ;
-    easyClues += ',"' + data.clue02 + '"' ;
-    easyClues += ',"' + data.clue03 + '"]],' ;
+    var easyClues = '{"easy":[' + '"' + data.easy.toUpperCase() + '",[';
+    easyClues += '"' + data.clue00.toUpperCase() + '"' ;
+    easyClues += ',"' + data.clue01.toUpperCase() + '"' ;
+    easyClues += ',"' + data.clue02.toUpperCase() + '"' ;
+    easyClues += ',"' + data.clue03.toUpperCase() + '"]],' ;
 
-    var mediumClues = '"medium":[' + '"' + data.medium + '",[';
-    mediumClues += '"' + data.clue10 + '"' ;
-    mediumClues += ',"' + data.clue11 + '"' ;
-    mediumClues += ',"' + data.clue12 + '"' ;
-    mediumClues += ',"' + data.clue13 + '"]],' ;
+    var mediumClues = '"medium":[' + '"' + data.medium.toUpperCase() + '",[';
+    mediumClues += '"' + data.clue10.toUpperCase() + '"' ;
+    mediumClues += ',"' + data.clue11.toUpperCase() + '"' ;
+    mediumClues += ',"' + data.clue12.toUpperCase() + '"' ;
+    mediumClues += ',"' + data.clue13.toUpperCase() + '"]],' ;
 
-    var harderClues = '"harder":[' + '"' + data.harder + '",[';
-    harderClues += '"' + data.clue20 + '"' ;
-    harderClues += ',"' + data.clue21 + '"' ;
-    harderClues += ',"' + data.clue22 + '"' ;
-    harderClues += ',"' + data.clue23 + '"]],' ;
+    var harderClues = '"harder":[' + '"' + data.harder.toUpperCase() + '",[';
+    harderClues += '"' + data.clue20.toUpperCase() + '"' ;
+    harderClues += ',"' + data.clue21.toUpperCase() + '"' ;
+    harderClues += ',"' + data.clue22.toUpperCase() + '"' ;
+    harderClues += ',"' + data.clue23.toUpperCase() + '"]],' ;
 
-    var difficultClues = '"difficult":[' + '"' + data.difficult + '",[';
-    difficultClues += '"' + data.clue30 + '"' ;
-    difficultClues += ',"' + data.clue31 + '"' ;
-    difficultClues += ',"' + data.clue32 + '"' ;
-    difficultClues += ',"' + data.clue33 + '"]]}' ;
+    var difficultClues = '"difficult":[' + '"' + data.difficult.toUpperCase() + '",[';
+    difficultClues += '"' + data.clue30 .toUpperCase()+ '"' ;
+    difficultClues += ',"' + data.clue31.toUpperCase() + '"' ;
+    difficultClues += ',"' + data.clue32.toUpperCase() + '"' ;
+    difficultClues += ',"' + data.clue33.toUpperCase() + '"]]}' ;
 
 //  console.log(easyClues + mediumClues + harderClues + difficultClues);
 
