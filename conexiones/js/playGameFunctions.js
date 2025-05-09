@@ -381,7 +381,7 @@ function openModal(result) {
         var hint = [thisGame.easy[0],thisGame.medium[0],thisGame.harder[0],thisGame.difficult[0]] ;
         hint = hint.join("<br>");
         modalContent.innerHTML = `<div style="width: 300px;font-size: 20px;">
-                                    <h4>Pista</h4>
+                                    <h4>Pistas</h4>
                                     <br>
                                     <div class="hint" style="background-color:rgb(227,228,65);">
                                         ${thisGame.easy[0]}
