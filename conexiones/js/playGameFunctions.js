@@ -93,13 +93,23 @@ function didWeGetThreeCorrect(guessColors){
     }
 
     if (offByOne) {
-        // toggleOnByOneDiv();
         var x = document.getElementById("toast");
+        x.innerHTML = "¡Sólo una zzz suposición es incorrecta!";
         x.className = "show";
-        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 9000);
+        setTimeout(function(){x.className = x.className.replace("show", "hide");}, 2000);
     }
 
 }
+
+// function showHint() {
+//     var hint = [thisGame.easy[0],thisGame.medium[0],thisGame.harder[0],thisGame.difficult[0]] ;
+//     hint = hint.join("<br>");
+
+//     var x = document.getElementById("toast");
+//     x.innerHTML = hint;
+//     x.className = "show";
+//     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+// };
 
 // Updates guess counter for UI
 function updateGuesses() {
@@ -363,12 +373,32 @@ function openModal(result) {
             break;
     }
 
-    if (result == 1) { //win
+    if (result == 1) {
         modalContent.innerHTML = `<h4>${title}</h4>
                                   <p>${gameRecord.map(row => row).join('<br>')}</p>
                                   <button class="modal-button" onclick="closeModal()">OK</button>`;
-
-    } else { //loss
+    } else if (result == -1) {
+        var hint = [thisGame.easy[0],thisGame.medium[0],thisGame.harder[0],thisGame.difficult[0]] ;
+        hint = hint.join("<br>");
+        modalContent.innerHTML = `<div style="width: 300px;font-size: 20px;">
+                                    <h4>Pista</h4>
+                                    <br>
+                                    <div class="hint" style="background-color:rgb(227,228,65);">
+                                        ${thisGame.easy[0]}
+                                    </div>
+                                    <div class="hint" style="background-color:rgb(116,191,45);">
+                                        ${thisGame.medium[0]}
+                                    </div>
+                                    <div class="hint" style="background-color: rgb(78,149,254);">
+                                        ${thisGame.harder[0]}
+                                    </div>
+                                    <div class="hint" style="background-color: rgb(167,77,251);">
+                                        ${thisGame.difficult[0]}
+                                    </div>
+                                  
+                                    <button class="modal-button" onclick="closeModal()">OK</button>
+                                  </div>`;
+    } else {
         modalContent.innerHTML = `<h4>¡Lo siento!</h4>
                                   <p>${gameRecord.map(row => row).join('<br>')}</p>
                                   <button class="modal-button" onclick="closeModal()">OK</button>`;
