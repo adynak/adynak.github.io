@@ -420,10 +420,11 @@ function levelSolved(overlayLevel) {
     const overlay = document.createElement('div');
     overlay.className = 'overlay';
     overlay.id = `${overlayLevel}-overlay`;
+    debugger;
 
-    overlay.innerHTML = `<h5>${thisGame[overlayLevel][0].toUpperCase()}</h5>
-                         <br>
-                         <h6>${thisGame[overlayLevel][1].map(word => word).join(', ').toUpperCase()}</h6>`;
+    var categoryWords = thisGame[overlayLevel][1].map(word => word).join(', ').toUpperCase();
+
+    overlay.innerHTML = `<h5>${thisGame[overlayLevel][0].toUpperCase()}</h5><h6>${categoryWords}</h6>`;
     overlay.style.textAlign = 'center';
 
     overlay.style.position = 'absolute';
