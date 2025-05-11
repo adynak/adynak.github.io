@@ -94,7 +94,7 @@ function didWeGetThreeCorrect(guessColors){
 
     if (offByOne) {
         var x = document.getElementById("toast");
-        x.innerHTML = "¡Sólo una zzz suposición es incorrecta!";
+        x.innerHTML = "¡Sólo una suposición es incorrecta!";
         x.className = "show";
         setTimeout(function(){x.className = x.className.replace("show", "hide");}, 2000);
     }
