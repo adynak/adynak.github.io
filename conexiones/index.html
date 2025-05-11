@@ -4,6 +4,8 @@
         <title>Conexiones</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="toast.css">
         <script src="js/puzzles.js"></script>
@@ -14,14 +16,14 @@
         <link rel="shortcut icon" href="#">
 
     </head>
-    <body>
+        <body onload="window.top.scrollTo(0,1);">
         <h4>Conexiones</h4>
         <h5>¡Crea cuatro grupos de cuatro!</h5>
-        <br>
+        <!-- <br> -->
 
         <div id="toast">¡Sólo una suposición es incorrecta!</div>
 
-        <br>
+        <!-- <br> -->
         <div class="modal" id="modal">
             <div class="modal-content" id="modal-content">
             </div>
