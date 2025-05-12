@@ -1,4 +1,4 @@
-body {
+.page {
     font-family: 'Franklin Gothic', Tahoma, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,11 +18,15 @@ body {
 }
 
 .hint {
-  border: 1px solid black;
-/*  padding: 25px;*/
-  padding: 25px 0px 25px 0px;
+    border: 1px solid black;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 5px;
+    zoom: 55%;
+}
 
-  margin-bottom: 5px;
+.hintCat {
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -115,6 +119,25 @@ h6 {
     width: 155px;
 }
 
+table, th, td {
+/*  border: 1px solid black;*/
+  border-collapse: collapse;
+      font-family: 'Franklin Gothic', Tahoma, Verdana, sans-serif;
+
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 33%;
+}
+
 .guess-container {
     display: flex;
     justify-content: center;
@@ -157,10 +180,18 @@ h6 {
     .square {
         /*font-size: 90%;*/
     }
+    table.center {
+        width: 100%;
+    }
+}
+
+.clear{
+    clear:both;
 }
 
 .newGame {
     text-align: center;
+    padding-top: 10px;
 }
 
 .square:disabled {

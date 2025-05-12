@@ -15,20 +15,43 @@
         <link rel="apple-touch-icon" href="apple-touch-icon-120x120.png" sizes="120x120">
         <link rel="shortcut icon" href="#">
 
+        <script type="text/javascript">
+            $(document).ready(
+                function(){
+                    if(window.navigator.standalone == true) {
+                        $('a').click(
+                            function() {
+                                window.location = $(this).attr('href');return false;
+                            }
+                        );
+                    }
+                }
+            );
+        </script>
+
     </head>
-        <body onload="window.top.scrollTo(0,1);">
-        <h4>Conexiones</h4>
+        
+    <body>
+
+        <table class="center">
+            <th style="text-align:left;font-size: 30px;">Conexiones</th>
+            <th style="text-align: right;">
+                <img src="images/hint.jpg" alt="Pistas" width="40" height="40" onclick="openModal(-1)">
+            </th>
+        </table>
+
+        <div class="page">
+        
         <h5>¡Crea cuatro grupos de cuatro!</h5>
-        <!-- <br> -->
 
         <div id="toast">¡Sólo una suposición es incorrecta!</div>
 
-        <!-- <br> -->
         <div class="modal" id="modal">
-            <div class="modal-content" id="modal-content">
-            </div>
+            <div class="modal-content" id="modal-content"></div>
         </div>
+
         <div class="square-container"></div>
+
         <div class ="submit-container">
             <div class="guess-container">
                 <p>Errores restantes:</p>
@@ -39,19 +62,20 @@
             </div>
             <div class="submit-btn-container">
                 <button class="btn-pill" onclick="shuffle()">Barajar</button>
-                <button class="btn-pill btn-lg" onclick="deselectAll()">Deseleccionar</button>
+                <button class="btn-pill" onclick="deselectAll()">Rechazar</button>
                 <button class="btn-pill" onclick="makeGuess()">Entregar</button>
             </div>
-            <br>
             <div class="newGame">
-                <button class="btn-pill" onclick="openModal(-1)">Pistas</butto>
                 <button class="btn-pill btn-lg" onclick="newGame()">Nuevo Juego</button>
-            </div>  
+            </div>
         </div>
 
-        <a href="mailto:adynak@gmail.com?subject=Conexiones"><img src="./email.png" alt="EMAIL" /></a>
+        <a href="mailto:adynak@gmail.com?subject=Conexiones" target="_blank">
+            <img src="./email.png" alt="EMAIL" />
+        </a>
 
         <script src="playGame.js"></script>
 
+        </div>
     </body>
 </html>
