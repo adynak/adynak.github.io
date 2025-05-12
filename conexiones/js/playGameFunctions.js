@@ -383,16 +383,16 @@ function openModal(result) {
         modalContent.innerHTML = `<div style="width: 300px;font-size: 20px;">
                                     <h4>Pistas</h4>
                                     <br>
-                                    <div class="hint" style="background-color:rgb(227,228,65);">
+                                    <div class="hintCat" style="background-color:rgb(227,228,65);">
                                         ${thisGame.easy[0]}
                                     </div>
-                                    <div class="hint" style="background-color:rgb(116,191,45);">
+                                    <div class="hintCat" style="background-color:rgb(116,191,45);">
                                         ${thisGame.medium[0]}
                                     </div>
-                                    <div class="hint" style="background-color: rgb(78,149,254);">
+                                    <div class="hintCat" style="background-color: rgb(78,149,254);">
                                         ${thisGame.harder[0]}
                                     </div>
-                                    <div class="hint" style="background-color: rgb(167,77,251);">
+                                    <div class="hintCat" style="background-color: rgb(167,77,251);">
                                         ${thisGame.difficult[0]}
                                     </div>
                                   
