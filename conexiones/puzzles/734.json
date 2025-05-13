@@ -1,0 +1,92 @@
+{
+  "status": "OK",
+  "id": 734,
+  "print_date": "2025-05-08",
+  "editor": "Wyna Liu",
+  "categories": [
+    {
+      "title": "CANDIDAD",
+      "cards": [
+        {
+          "content": "HEAL",
+          "position": 13
+        },
+        {
+          "content": "PEQUEÑO",
+          "position": 2
+        },
+        {
+          "content": "TODO",
+          "position": 10
+        },
+        {
+          "content": "TANTO",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "title": "FIESTA",
+      "cards": [
+        {
+          "content": "MÚSICA",
+          "position": 9
+        },
+        {
+          "content": "PIÑATA",
+          "position": 6
+        },
+        {
+          "content": "TORTA",
+          "position": 15
+        },
+        {
+          "content": "RESFRESCOS",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "title": "INTERROGATIVAS",
+      "cards": [
+        {
+          "content": "CÓMO",
+          "position": 1
+        },
+        {
+          "content": "CUÁNDO",
+          "position": 11
+        },
+        {
+          "content": "DÓNDE",
+          "position": 8
+        },
+        {
+          "content": "POR QUÉ",
+          "position": 14
+        }
+      ]
+    },
+    {
+      "title": "COMUNIDAD AUTÓNOMA",
+      "cards": [
+        {
+          "content": "ANDALUSIA",
+          "position": 0
+        },
+        {
+          "content": "ASTURIAS",
+          "position": 12
+        },
+        {
+          "content": "CANTABRIA",
+          "position": 5
+        },
+        {
+          "content": "GALICIA",
+          "position": 7
+        }
+      ]
+    }
+  ]
+}
