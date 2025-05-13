@@ -50,19 +50,19 @@
       "title": "TU ES",
       "cards": [
         {
-          "content": "CUPS",
+          "content": "JOVEN",
           "position": 1
         },
         {
-          "content": "PENTACLES",
+          "content": "VIEJO",
           "position": 11
         },
         {
-          "content": "SWORDS",
+          "content": "NENE",
           "position": 8
         },
         {
-          "content": "WANDS",
+          "content": "MAYOR",
           "position": 14
         }
       ]
