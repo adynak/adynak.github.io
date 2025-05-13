@@ -5,49 +5,49 @@
   "editor": "Wyna Liu",
   "categories": [
     {
-      "title": "GET BETTER, AS A BROKEN BONE",
+      "title": "TIENES PELO",
       "cards": [
         {
-          "content": "HEAL",
+          "content": "CORTO",
           "position": 13
         },
         {
-          "content": "KNIT",
+          "content": "MEDIA MELENA",
           "position": 2
         },
         {
-          "content": "MEND",
+          "content": "LARGO",
           "position": 10
         },
         {
-          "content": "RECOVER",
+          "content": "RECOGIDO",
           "position": 4
         }
       ]
     },
     {
-      "title": "NOT INCLUDING",
+      "title": "PARACES",
       "cards": [
         {
-          "content": "BESIDES",
+          "content": "FELIZ",
           "position": 9
         },
         {
-          "content": "BUT",
+          "content": "TRISTE",
           "position": 6
         },
         {
-          "content": "EXCEPT",
+          "content": "ALEGRE",
           "position": 15
         },
         {
-          "content": "SAVE",
+          "content": "TIMIDO",
           "position": 3
         }
       ]
     },
     {
-      "title": "TAROT MINOR ARCANA SUITS",
+      "title": "TU ES",
       "cards": [
         {
           "content": "CUPS",
@@ -68,22 +68,22 @@
       ]
     },
     {
-      "title": "HOMOPHONES OF GEMSTONES",
+      "title": "EN TU CABEZA",
       "cards": [
         {
-          "content": "CHORAL",
+          "content": "GORRA",
           "position": 0
         },
         {
-          "content": "OPEL",
+          "content": "GORRO",
           "position": 12
         },
         {
-          "content": "PURL",
+          "content": "CASCO",
           "position": 5
         },
         {
-          "content": "QUARTS",
+          "content": "SOMBRERO",
           "position": 7
         }
       ]
