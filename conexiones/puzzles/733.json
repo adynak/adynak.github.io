@@ -1,0 +1,92 @@
+{
+  "status": "OK",
+  "id": 733,
+  "print_date": "2025-05-07",
+  "editor": "Wyna Liu",
+  "categories": [
+    {
+      "title": "TIENES PELO",
+      "cards": [
+        {
+          "content": "CORTO",
+          "position": 13
+        },
+        {
+          "content": "MEDIA MELENA",
+          "position": 2
+        },
+        {
+          "content": "LARGO",
+          "position": 10
+        },
+        {
+          "content": "RECOGIDO",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "title": "PARACES",
+      "cards": [
+        {
+          "content": "FELIZ",
+          "position": 9
+        },
+        {
+          "content": "TRISTE",
+          "position": 6
+        },
+        {
+          "content": "ALEGRE",
+          "position": 15
+        },
+        {
+          "content": "TIMIDO",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "title": "TU ES",
+      "cards": [
+        {
+          "content": "JOVEN",
+          "position": 1
+        },
+        {
+          "content": "VIEJO",
+          "position": 11
+        },
+        {
+          "content": "NENE",
+          "position": 8
+        },
+        {
+          "content": "MAYOR",
+          "position": 14
+        }
+      ]
+    },
+    {
+      "title": "EN TU CABEZA",
+      "cards": [
+        {
+          "content": "GORRA",
+          "position": 0
+        },
+        {
+          "content": "GORRO",
+          "position": 12
+        },
+        {
+          "content": "CASCO",
+          "position": 5
+        },
+        {
+          "content": "SOMBRERO",
+          "position": 7
+        }
+      ]
+    }
+  ]
+}
