@@ -170,7 +170,7 @@ table.center {
     text-align: center;
     color: rgb(37, 37, 37);
     border: none;
-    border-radius: 6px;
+    border-radius: 12px;
     font-weight: bold;
     cursor: auto;
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -211,7 +211,7 @@ table.center {
     position: relative;
     top: 50%;
     left: 50%;
-    border-radius: 6px;
+    border-radius: 12px;
     width: calc(4 * 8rem + 3 * 0.5rem);
     height: 7rem;
     background-color: rgb(49, 49, 44);
