@@ -53,7 +53,6 @@ function makeGuess() {
             gameRecord.push(guessGroups);
 
             if (correct) {
-                // toggleOffByOneDiv()
                 moveSolvedToNextRow(activeButtons, firstGroup, true);
             } else { // On incorrect guess
                 didWeGetThreeCorrect(guessColors);
