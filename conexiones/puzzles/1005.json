@@ -1,6 +1,6 @@
 {
   "id": 1005,
-  "puzzleName": "Unidad 5.1",
+  "puzzleName": "Ir, Ser, Interrogitivas, Líders",
   "groups": {
     "VERBO IR": {
       "level": 0,
@@ -32,10 +32,10 @@
     "LÍDERES": {
       "level": 3,
       "members": [
-        "WÁSHINGTON",
-        "MAESTRA",
-        "PRESIDENTA",
-        "PROFESORA"
+        "Isabella",
+        "Ferdinand",
+        "Suárez",
+        "González"
       ]
     }
   },
