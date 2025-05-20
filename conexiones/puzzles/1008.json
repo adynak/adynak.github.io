@@ -5,10 +5,10 @@
     "SALUDOS": {
       "level": 0,
       "members": [
-        "¡HOLA! ",
-        "¿QUé TAL? ",
+        "¡HOLA!",
+        "¿QUÉ TAL?",
         "BIENVENIDA",
-        "¿CóMO ESTáS?"
+        "¿CóMO ESTÁS?"
       ]
     },
     "¿QUé HORA ES?": {
@@ -17,7 +17,7 @@
         "MEDIODíA",
         "MEDIA HORA",
         "MEDIANOCHE",
-        "TRES Y MEDIA."
+        "TRES Y MEDIA"
       ]
     },
     "TEMPORADA": {
@@ -25,7 +25,7 @@
       "members": [
         "PRIMAVERA",
         "VERANO",
-        "OTOñO",
+        "OTOÑO",
         "INVIERNO"
       ]
     },
@@ -33,36 +33,36 @@
       "level": 3,
       "members": [
         "FLOR",
-        "áRBOL",
-        "JARDíN",
+        "ÁRBOL",
+        "JARDÍN",
         "HOJAS"
       ]
     }
   },
   "startingGroups": [
     [
-      "¡HOLA! ",
+      "¡HOLA!",
       "MEDIA HORA",
-      "OTOñO",
+      "OTOÑO",
       "HOJAS"
     ],
     [
-      "¿CóMO ESTáS?",
+      "¿CÓMO ESTÁS?",
       "MEDIANOCHE",
       "VERANO",
       "FLOR"
     ],
     [
-      "¿QUé TAL? ",
-      "MEDIODíA",
+      "¿QUÉ TAL?",
+      "MEDIODÍA",
       "INVIERNO",
-      "JARDíN"
+      "JARDÍN"
     ],
     [
       "BIENVENIDA",
-      "TRES Y MEDIA.",
+      "TRES Y MEDIA",
       "PRIMAVERA",
-      "áRBOL"
+      "ÁRBOL"
     ]
   ]
 }
