@@ -1,0 +1,68 @@
+{
+  "id": 1013,
+  "puzzleName": "Cristalería, Verduras, Huerta, Bebidas",
+  "groups": {
+    "COMER CON": {
+      "level": 0,
+      "members": [
+        "TAZA",
+        "TENEDOR",
+        "VASO",
+        "CUCHILLO"
+      ]
+    },
+    "LAS LEGUMBREA": {
+      "level": 1,
+      "members": [
+        "CEBOLLA",
+        "PAPA",
+        "ESPINACA",
+        "ZANAHORIA"
+      ]
+    },
+    "LAS FRUTAS": {
+      "level": 2,
+      "members": [
+        "MANZANA",
+        "UVAS",
+        "NARANJA",
+        "FRESA"
+      ]
+    },
+    "LAS BEBIDAS": {
+      "level": 3,
+      "members": [
+        "CERVESA",
+        "VINO",
+        "REFRESCO",
+        "CAFÉ"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "TAZA",
+      "CAFÉ",
+      "UVAS",
+      "CEBOLLA"
+    ],
+    [
+      "VINO",
+      "VASO",
+      "PAPA",
+      "FRESA"
+    ],
+    [
+      "TENEDOR",
+      "REFRESCO",
+      "ESPINACA",
+      "NARANJA"
+    ],
+    [
+      "CUCHILLO",
+      "CERVESA",
+      "MANZANA",
+      "ZANAHORIA"
+    ]
+  ]
+}

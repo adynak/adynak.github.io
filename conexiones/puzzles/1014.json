@@ -1,0 +1,68 @@
+{
+  "id": 1014,
+  "puzzleName": "¿Qué ponerse esta noche?, Peluquera, Comprame algo caro, Ir de excursión",
+  "groups": {
+    "LA ROPA": {
+      "level": 0,
+      "members": [
+        "CAMISA",
+        "PANTALONES",
+        "MEDIAS",
+        "FALADA"
+      ]
+    },
+    "COLOR DE PELO": {
+      "level": 1,
+      "members": [
+        "CALVO",
+        "RUBIO",
+        "MORENO",
+        "PELIRROJO"
+      ]
+    },
+    "JOYAS": {
+      "level": 2,
+      "members": [
+        "PENDIENTES",
+        "PULSERA",
+        "COLLAR",
+        "RELOJ"
+      ]
+    },
+    "EN TUS PIES": {
+      "level": 3,
+      "members": [
+        "ZAPATOS",
+        "SANDALIAS",
+        "BOTAS",
+        "CALCETINES"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "MORENO",
+      "MEDIAS",
+      "PULSERA",
+      "BOTAS"
+    ],
+    [
+      "CALVO",
+      "CAMISA",
+      "COLLAR",
+      "CALCETINES"
+    ],
+    [
+      "PANTALONES",
+      "PENDIENTES",
+      "PELIRROJO",
+      "ZAPATOS"
+    ],
+    [
+      "SANDALIAS",
+      "RUBIO",
+      "RELOJ",
+      "FALADA"
+    ]
+  ]
+}

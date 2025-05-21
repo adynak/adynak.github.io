@@ -1,0 +1,68 @@
+{
+  "id": 1015,
+  "puzzleName": "¿A qué hora?, ¿Hacia dónde?, ¿Cómo es afuera?, ¿Buscas una casa?",
+  "groups": {
+    "QUÁNDO": {
+      "level": 0,
+      "members": [
+        "HOY",
+        "AYER",
+        "PRONTO",
+        "MAÑANA"
+      ]
+    },
+    "DIRECCIONES": {
+      "level": 1,
+      "members": [
+        "LEJOS",
+        "ALLI",
+        "ENTRE",
+        "JUNTO"
+      ]
+    },
+    "EL CLIMA": {
+      "level": 2,
+      "members": [
+        "VENTOSO",
+        "LLUEVE",
+        "NUBLADO",
+        "FRESCO"
+      ]
+    },
+    "BUSCANDO CASA": {
+      "level": 3,
+      "members": [
+        "VENTA",
+        "AQUILAR",
+        "PRÉSTAMO",
+        "COMPRA"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "HOY",
+      "ALLI",
+      "FRESCO",
+      "PRÉSTAMO"
+    ],
+    [
+      "PRONTO",
+      "JUNTO",
+      "VENTOSO",
+      "VENTA"
+    ],
+    [
+      "AQUILAR",
+      "AYER",
+      "LEJOS",
+      "LLUEVE"
+    ],
+    [
+      "ENTRE",
+      "COMPRA",
+      "NUBLADO",
+      "MAÑANA"
+    ]
+  ]
+}
