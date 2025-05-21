@@ -6,7 +6,7 @@
       "level": 0,
       "members": [
         "MUCHO",
-        "PEQUEñO",
+        "PEQUEÑO",
         "TODO",
         "TANTO"
       ]
@@ -32,8 +32,8 @@
     "FIESTA": {
       "level": 3,
       "members": [
-        "MúSICA",
-        "PIñATA",
+        "MÚSICA",
+        "PIÑATA",
         "TORTA",
         "RESFRESCOS"
       ]
@@ -50,10 +50,10 @@
       "TANTO",
       "CINE",
       "ABUELO",
-      "MúSICA"
+      "MÚSICA"
     ],
     [
-      "PEQUEñO",
+      "PEQUEÑO",
       "TEATRO",
       "HERMAN",
       "TORTA"
@@ -62,7 +62,7 @@
       "TODO",
       "MUSEO",
       "ABUELA",
-      "PIñATA"
+      "PIÑATA"
     ]
   ]
 }

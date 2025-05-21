@@ -5,7 +5,7 @@
     "DíAS DE LA SEMANA": {
       "level": 0,
       "members": [
-        "SáBADO",
+        "SÁBADO",
         "DOMINGO",
         "LUNES",
         "JUEVES"
@@ -41,7 +41,7 @@
   },
   "startingGroups": [
     [
-      "SáBADO",
+      "SÁBADO",
       "QUESO",
       "ESTRELLA",
       "VEINTE"

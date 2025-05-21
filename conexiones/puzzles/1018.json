@@ -1,0 +1,68 @@
+{
+  "id": 1018,
+  "puzzleName": "Lugares, por favor, ¡Mío!, ¡Tuyo!, Hacerlo o no hacerlo",
+  "groups": {
+    "LAS PREPOSICIONES DE LUGAR": {
+      "level": 0,
+      "members": [
+        "AL LA IZQUIERDA",
+        "A LA DERECHA",
+        "DELANTE",
+        "DETRÁS"
+      ]
+    },
+    "HAY MIOS": {
+      "level": 1,
+      "members": [
+        "MIO",
+        "MIA",
+        "MIOS",
+        "MIAS"
+      ]
+    },
+    "ESOS SON TUYOS": {
+      "level": 2,
+      "members": [
+        "TUYO",
+        "TUYA",
+        "TUYAS",
+        "TUYOS"
+      ]
+    },
+    "VERBO HACER": {
+      "level": 3,
+      "members": [
+        "HAGO",
+        "HACES",
+        "HACE",
+        "HACEN"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "AL LA IZQUIERDA",
+      "MIO",
+      "TUYA",
+      "HACE"
+    ],
+    [
+      "MIA",
+      "A LA DERECHA",
+      "HACES",
+      "MIAS"
+    ],
+    [
+      "MIOS",
+      "TUYAS",
+      "DELANTE",
+      "HACEN"
+    ],
+    [
+      "HAGO",
+      "TUYO",
+      "TUYOS",
+      "DETRÁS"
+    ]
+  ]
+}

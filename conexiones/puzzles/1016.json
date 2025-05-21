@@ -1,0 +1,68 @@
+{
+  "id": 1016,
+  "puzzleName": "Es hora de ver a un barbero, La edad no es importante, Psicología Hoy, Cúbrete la cabeza",
+  "groups": {
+    "TIENES PELO": {
+      "level": 0,
+      "members": [
+        "CORTO",
+        "MEDIA MELENA",
+        "LARGO",
+        "RECOGIDO"
+      ]
+    },
+    "TU ES": {
+      "level": 1,
+      "members": [
+        "JOVEN",
+        "VIEJO",
+        "NENE",
+        "MAYOR"
+      ]
+    },
+    "ESTADOS DE ÁNIMO": {
+      "level": 2,
+      "members": [
+        "FELIZ",
+        "TRISTE",
+        "ALEGRE",
+        "TIMIDO"
+      ]
+    },
+    "EN TU CABEZA": {
+      "level": 3,
+      "members": [
+        "GORRA",
+        "GORRO",
+        "CASCO",
+        "SOMBRERO"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "GORRO",
+      "CORTO",
+      "VIEJO",
+      "TIMIDO"
+    ],
+    [
+      "LARGO",
+      "JOVEN",
+      "ALEGRE",
+      "CASCO"
+    ],
+    [
+      "MEDIA MELENA",
+      "FELIZ",
+      "NENE",
+      "GORRA"
+    ],
+    [
+      "TRISTE",
+      "RECOGIDO",
+      "MAYOR",
+      "SOMBRERO"
+    ]
+  ]
+}

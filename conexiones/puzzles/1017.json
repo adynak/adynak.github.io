@@ -1,0 +1,68 @@
+{
+  "id": 1017,
+  "puzzleName": "Lección 1 de verbos irregulares",
+  "groups": {
+    "VERBOS IRREGULAR - VOLVER": {
+      "level": 0,
+      "members": [
+        "VOLVER",
+        "VUELO",
+        "VUELVE",
+        "VOLVÉIS"
+      ]
+    },
+    "VERBOS IRREGULAR - TRAER": {
+      "level": 1,
+      "members": [
+        "TRAER",
+        "TRAIGO",
+        "TRAE",
+        "TRAÉIS"
+      ]
+    },
+    "VERBOS IRREGULAR - SOÑAR": {
+      "level": 2,
+      "members": [
+        "SOÑAR",
+        "SUEÑO",
+        "SUEÑA",
+        "SOÑAIS"
+      ]
+    },
+    "VERBOS IRREGULAR - QUERER": {
+      "level": 3,
+      "members": [
+        "QUERER",
+        "QUIERO",
+        "QUIERE",
+        "QUERÉIS"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "VOLVER",
+      "TRAÉIS",
+      "VOLVÉIS",
+      "QUIERO"
+    ],
+    [
+      "VUELVE",
+      "TRAIGO",
+      "SOÑAIS",
+      "TRAER"
+    ],
+    [
+      "TRAE",
+      "SOÑAR",
+      "SUEÑA",
+      "QUIERE"
+    ],
+    [
+      "SUEÑO",
+      "VUELO",
+      "QUERER",
+      "QUERÉIS"
+    ]
+  ]
+}
