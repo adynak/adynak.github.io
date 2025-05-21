@@ -1,92 +1,68 @@
 {
-  "status": "OK",
-  "id": 733,
-  "print_date": "2025-05-07",
-  "editor": "Wyna Liu",
-  "categories": [
-    {
-      "title": "TIENES PELO",
-      "cards": [
-        {
-          "content": "CORTO",
-          "position": 13
-        },
-        {
-          "content": "MEDIA MELENA",
-          "position": 2
-        },
-        {
-          "content": "LARGO",
-          "position": 10
-        },
-        {
-          "content": "RECOGIDO",
-          "position": 4
-        }
+  "id": 1010,
+  "puzzleName": "Tomar, Hambre, Ser.., Hablar",
+  "groups": {
+    "ESTOY ALGO PERDIDA": {
+      "level": 0,
+      "members": [
+        "COMO LLEGO A",
+        "DONDE ESTA",
+        "DONDE HAY",
+        "DONDE QUERA"
       ]
     },
-    {
-      "title": "PARACES",
-      "cards": [
-        {
-          "content": "FELIZ",
-          "position": 9
-        },
-        {
-          "content": "TRISTE",
-          "position": 6
-        },
-        {
-          "content": "ALEGRE",
-          "position": 15
-        },
-        {
-          "content": "TIMIDO",
-          "position": 3
-        }
+    "¿ADÓNDE?": {
+      "level": 1,
+      "members": [
+        "AQUÍ",
+        "AHÍ",
+        "ALLÁ",
+        "ACÁ"
       ]
     },
-    {
-      "title": "TU ES",
-      "cards": [
-        {
-          "content": "JOVEN",
-          "position": 1
-        },
-        {
-          "content": "VIEJO",
-          "position": 11
-        },
-        {
-          "content": "NENE",
-          "position": 8
-        },
-        {
-          "content": "MAYOR",
-          "position": 14
-        }
+    "NO DAR VUELTA": {
+      "level": 2,
+      "members": [
+        "DERECHO",
+        "CONTINUAR",
+        "MISMA DIRECCION",
+        "AL FRENTE"
       ]
     },
-    {
-      "title": "EN TU CABEZA",
-      "cards": [
-        {
-          "content": "GORRA",
-          "position": 0
-        },
-        {
-          "content": "GORRO",
-          "position": 12
-        },
-        {
-          "content": "CASCO",
-          "position": 5
-        },
-        {
-          "content": "SOMBRERO",
-          "position": 7
-        }
+    "VIAJE DEL PUNTO A AL PUNTO B": {
+      "level": 3,
+      "members": [
+        "ITINERARIO",
+        "DESTINO",
+        "RUTA",
+        "RUMBO"
       ]
     }
+  },
+  "startingGroups": [
+    [
+      "RUMBO",
+      "DERECHO",
+      "ALLÁ",
+      "AL FRENTE"
+    ],
+    [
+      "DONDE HAY",
+      "AQUÍ",
+      "DESTINO",
+      "COMO LLEGO A"
+    ],
+    [
+      "RUTA",
+      "AHÍ",
+      "MISMA DIRECCION",
+      "DONDE QUERA"
+    ],
+    [
+      "ITINERARIO",
+      "ACÁ",
+      "CONTINUAR",
+      "DONDE ESTA"
+    ]
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "id": 1011,
+  "puzzleName": "Beber, Cena, Curada, Tapas",
+  "groups": {
+    "¿ALGO PARA BEBER?": {
+      "level": 0,
+      "members": [
+        "CERVESA",
+        "CAÑA",
+        "VINO",
+        "CALIMOCHO"
+      ]
+    },
+    "PROTEÍNA PARA LA CENA": {
+      "level": 1,
+      "members": [
+        "BACALAO",
+        "SOLOMILLO",
+        "LOMO",
+        "JAMÓN"
+      ]
+    },
+    "SALCHICHA CURADA": {
+      "level": 2,
+      "members": [
+        "MORCILLA",
+        "CHORIZO",
+        "SALCHICHON",
+        "BOTIFARRA"
+      ]
+    },
+    "TAPAS": {
+      "level": 3,
+      "members": [
+        "MIGAS",
+        "TORTILLA",
+        "CROQUETAS",
+        "PATATAS BRAVAS"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "CAÑA",
+      "MIGAS",
+      "LOMO",
+      "BOTIFARRA"
+    ],
+    [
+      "TORTILLA",
+      "SOLOMILLO",
+      "CERVESA",
+      "CHORIZO"
+    ],
+    [
+      "VINO",
+      "CROQUETAS",
+      "BACALAO",
+      "SALCHICHON"
+    ],
+    [
+      "JAMÓN",
+      "CALIMOCHO",
+      "PATATAS BRAVAS",
+      "MORCILLA"
+    ]
+  ]
+}

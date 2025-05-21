@@ -1,0 +1,68 @@
+{
+  "id": 1012,
+  "puzzleName": "Juego, Lugares para visitar, Aprende a cocinar, Carreras médicas",
+  "groups": {
+    "DEPORTES": {
+      "level": 0,
+      "members": [
+        "CICLISMO",
+        "ESQUI",
+        "NATACIÓ",
+        "BALONCESTO"
+      ]
+    },
+    "HABITANTES": {
+      "level": 1,
+      "members": [
+        "ALEMÁN",
+        "CHILENO",
+        "CHINO",
+        "SUIZO"
+      ]
+    },
+    "LAS PROFESIONES EN LA COCINA": {
+      "level": 2,
+      "members": [
+        "PESCADERO",
+        "COCINERO",
+        "CARCINERO",
+        "PASTELERO"
+      ]
+    },
+    "A TU SALUD": {
+      "level": 3,
+      "members": [
+        "DENTISTA",
+        "ENFERMERA",
+        "DOCTURA",
+        "FARMACEUTICA"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "SUIZO",
+      "ESQUI",
+      "PASTELERO",
+      "DENTISTA"
+    ],
+    [
+      "COCINERO",
+      "CHINO",
+      "CICLISMO",
+      "FARMACEUTICA"
+    ],
+    [
+      "PESCADERO",
+      "CHILENO",
+      "BALONCESTO",
+      "DOCTURA"
+    ],
+    [
+      "ENFERMERA",
+      "NATACIÓ",
+      "ALEMÁN",
+      "CARCINERO"
+    ]
+  ]
+}
