@@ -1,0 +1,56 @@
+{
+  "id": 1019,
+  "puzzleName": "Casa, Precio, Que Falta, Imperativo",
+  "groups": {
+    "HABITACIONES DE LA CASA": {
+      "level": 0,
+      "members": [
+        "BAÑO",
+        "COCINA",
+        "DORMITORIO",
+        "PASILLO"
+      ]
+    },
+    "EL PRECIO QUE PAGAS": {
+      "level": 1,
+      "members": [
+        "BARATO",
+        "ASEQUIBLE",
+        "CARA",
+        "DEMASIADO"
+      ]
+    },
+    "LA PARTE MÁS DIFÍCIL": {
+      "level": 2,
+      "members": [
+        "ESPERAR",
+        "QUEDARSE",
+        "BUSCAR",
+        "AGUANTAR"
+      ]
+    },
+    "EL IMPERATIVO": {
+      "level": 3,
+      "members": [
+        "VENGA",
+        "DOBLE",
+        "OIGA",
+        "DETENER"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "BAÑO,BARATO,BUSCAR,CARA"
+    ],
+    [
+      "COCINA,QUEDARSE,PASILLO,OIGA"
+    ],
+    [
+      "DORMITORIO,DEMASIADO,DOBLE,ESPERAR"
+    ],
+    [
+      "VENGA,ASEQUIBLE,DETENER,AGUANTAR"
+    ]
+  ]
+}
