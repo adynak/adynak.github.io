@@ -1,0 +1,68 @@
+{
+  "id": 1020,
+  "puzzleName": "El Cuerpo",
+  "groups": {
+    "CARA": {
+      "level": 0,
+      "members": [
+        "DIENTA",
+        "OJO",
+        "OREJA",
+        "NEZ"
+      ]
+    },
+    "PIERNA": {
+      "level": 1,
+      "members": [
+        "PIE",
+        "PIERNA",
+        "TALON",
+        "RODILLA"
+      ]
+    },
+    "MANO": {
+      "level": 2,
+      "members": [
+        "PLUGAR",
+        "UÑA",
+        "DEDOS",
+        "PALMA"
+      ]
+    },
+    "BRAZO": {
+      "level": 3,
+      "members": [
+        "BRAZO",
+        "MANO",
+        "CODO",
+        "MUÑECA"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "DIENTA",
+      "OJO",
+      "OREJA",
+      "NEZ"
+    ],
+    [
+      "PIE",
+      "PIERNA",
+      "TALON",
+      "RODILLA"
+    ],
+    [
+      "PLUGAR",
+      "UÑA",
+      "DEDOS",
+      "PALMA"
+    ],
+    [
+      "BRAZO",
+      "MANO",
+      "CODO",
+      "MUÑECA"
+    ]
+  ]
+}
