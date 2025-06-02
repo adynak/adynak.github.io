@@ -11,7 +11,7 @@
         "¿CÓMO ESTÁS?"
       ]
     },
-    "¿QUé HORA ES?": {
+    "¿QUÉ HORA ES?": {
       "level": 1,
       "members": [
         "MEDIODÍA",
@@ -41,28 +41,28 @@
   },
   "startingGroups": [
     [
-      "¡HOLA!",
-      "MEDIA HORA",
       "OTOÑO",
+      "¡HOLA!",
+      "MEDIANOCHE",
       "HOJAS"
     ],
     [
-      "¿CÓMO ESTÁS?",
-      "MEDIANOCHE",
-      "VERANO",
-      "FLOR"
+      "ÁRBOL",
+      "MEDIA HORA",
+      "¿QUÉ TAL?",
+      "INVIERNO"
     ],
     [
-      "¿QUÉ TAL?",
       "MEDIODÍA",
-      "INVIERNO",
-      "JARDÍN"
+      "FLOR",
+      "VERANO",
+      "¿CÓMO ESTÁS?"
     ],
     [
       "BIENVENIDA",
-      "TRES Y MEDIA",
       "PRIMAVERA",
-      "ÁRBOL"
+      "JARDÍN",
+      "TRES Y MEDIA"
     ]
   ]
 }

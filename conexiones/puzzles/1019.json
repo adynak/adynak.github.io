@@ -42,27 +42,27 @@
   "startingGroups": [
     [
       "BAÑO",
-      "BARATO",
+      "DOBLE",
       "BUSCAR",
-      "CARA"
+      "DEMASIADO"
     ],
     [
+      "BARATO",
       "COCINA",
-      "QUEDARSE",
+      "DETENER",
+      "AGUANTAR"
+    ],
+    [
+      "ESPERAR",
+      "ASEQUIBLE",
       "PASILLO",
       "OIGA"
     ],
     [
-      "DORMITORIO",
-      "DEMASIADO",
-      "DOBLE",
-      "ESPERAR"
-    ],
-    [
       "VENGA",
-      "ASEQUIBLE",
-      "DETENER",
-      "AGUANTAR"
+      "QUEDARSE",
+      "DORMITORIO",
+      "CARA"
     ]
   ]
 }

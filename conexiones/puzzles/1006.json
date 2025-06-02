@@ -2,13 +2,13 @@
   "id": 1006,
   "puzzleName": "Tamaño, Pasear, Mapa, Grito",
   "groups": {
-    "EL TAMAñO IMPORTA": {
+    "EL TAMAÑO IMPORTA": {
       "level": 0,
       "members": [
         "ALTO",
         "GRANDE",
         "CHICO",
-        "PEQUEñO"
+        "PEQUEÑO"
       ]
     },
     "A LO LARGO DE LA AVENIDA": {
@@ -20,7 +20,7 @@
         "MUSEO"
       ]
     },
-    "CARACTERíSTICAS DEL MAPA": {
+    "CARACTERÍSTICAS DEL MAPA": {
       "level": 2,
       "members": [
         "ALDEA",
@@ -34,7 +34,7 @@
       "members": [
         "OYE",
         "PERO",
-        "TAMBIéN",
+        "TAMBIÉN",
         "VALE"
       ]
     }
@@ -42,27 +42,27 @@
   "startingGroups": [
     [
       "ALTO",
-      "TIENDA",
-      "AVENDA",
-      "VALE"
-    ],
-    [
-      "PEQUEñO",
-      "TEATRO",
-      "CALLE",
-      "OYE"
-    ],
-    [
-      "GRANDE",
-      "RESTAURANTE",
+      "VALE",
       "CUIDAD",
-      "TAMBIéN"
+      "TEATRO"
     ],
     [
-      "CHICO",
+      "AVENDA",
+      "GRANDE",
       "MUSEO",
-      "ALDEA",
       "PERO"
+    ],
+    [
+      "TIENDA",
+      "CALLE",
+      "CHICO",
+      "TAMBIÉN"
+    ],
+    [
+      "PEQUEÑO",
+      "OYE",
+      "ALDEA",
+      "RESTAURANTE"
     ]
   ]
 }

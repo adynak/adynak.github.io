@@ -1,6 +1,6 @@
 {
   "id": 1007,
-    "puzzleName": "Candidad, Cuidad, Familia, Fiesta",
+  "puzzleName": "Candidad, Cuidad, Familia, Fiesta",
   "groups": {
     "CANDIDAD": {
       "level": 0,
@@ -41,28 +41,28 @@
   },
   "startingGroups": [
     [
-      "MUCHO",
-      "RESTAURANTE",
+      "PIÑATA",
       "NENE",
-      "RESFRESCOS"
+      "MUSEO",
+      "MUCHO"
     ],
     [
       "TANTO",
       "CINE",
-      "ABUELO",
-      "MÚSICA"
+      "RESFRESCOS",
+      "ABUELA"
     ],
     [
-      "PEQUEÑO",
-      "TEATRO",
-      "HERMANO",
-      "TORTA"
-    ],
-    [
+      "TORTA",
       "TODO",
-      "MUSEO",
-      "ABUELA",
-      "PIÑATA"
+      "ABUELO",
+      "RESTAURANTE"
+    ],
+    [
+      "HERMANO",
+      "MÚSICA",
+      "TEATRO",
+      "PEQUEÑO"
     ]
   ]
 }
