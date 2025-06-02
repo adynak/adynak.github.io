@@ -1,0 +1,68 @@
+{
+  "id": 1021,
+  "puzzleName": "Describe este rompecabezas para la tabla de contenido",
+  "groups": {
+    "ALGO ES VERDE": {
+      "level": 0,
+      "members": [
+        "OJOS",
+        "PELO",
+        "HOYAS",
+        "ÁRBOLES"
+      ]
+    },
+    "TIENE SENTIDO": {
+      "level": 1,
+      "members": [
+        "ALTO",
+        "BAJO",
+        "DELGADO",
+        "GORDO"
+      ]
+    },
+    "PONTE LAS PILAS": {
+      "level": 2,
+      "members": [
+        "CONTIGO",
+        "CONMIGO",
+        "CONSIGO",
+        "CON ÉL"
+      ]
+    },
+    "¿ESTÁS DE ACUERDO?": {
+      "level": 3,
+      "members": [
+        "TAMPOCO",
+        "TAMBIÉN",
+        "MAS AUN",
+        "ADEMÁS"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "ÁRBOLES",
+      "GORDO",
+      "CON ÉL",
+      "MAS AUN"
+    ],
+    [
+      "ADEMÁS",
+      "CONMIGO",
+      "PELO",
+      "BAJO"
+    ],
+    [
+      "ALTO",
+      "OJOS",
+      "CONTIGO",
+      "TAMPOCO"
+    ],
+    [
+      "HOYAS",
+      "TAMBIÉN",
+      "CONSIGO",
+      "DELGADO"
+    ]
+  ]
+}
