@@ -20,49 +20,49 @@
         "LAVA"
       ]
     },
-    "UNIDADES DE TIEMPO": {
-      "level": 2,
-      "members": [
-        "HORA",
-        "MES",
-        "AñO",
-        "QUINCENA"
-      ]
-    },
     "UN ANHELO POR": {
-      "level": 3,
+      "level": 2,
       "members": [
         "ORAR",
         "DESEAR",
         "ESPERAR",
         "DESEO"
       ]
+    },
+    "UNIDADES DE TIEMPO": {
+      "level": 3,
+      "members": [
+        "HORA",
+        "MES",
+        "AÑO",
+        "QUINCENA"
+      ]
     }
   },
   "startingGroups": [
     [
       "SIERRA",
-      "ABRE",
-      "AñO",
+      "LAVA",
+      "MES",
+      "DESEAR"
+    ],
+    [
+      "HORA",
+      "VALLE",
+      "CUBRE",
       "DESEO"
     ],
     [
-      "PAMPA",
-      "CUBRE",
-      "MES",
-      "ORAR"
-    ],
-    [
-      "VALLE",
+      "ORAR",
       "CIERRA",
-      "QUINCENA",
-      "ESPERAR"
+      "RIO",
+      "QUINCENA"
     ],
     [
-      "RIO",
-      "LAVA",
-      "HORA",
-      "DESEAR"
+      "ABRE",
+      "ESPERAR",
+      "AÑO",
+      "PAMPA"
     ]
   ]
 }

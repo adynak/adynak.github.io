@@ -24,45 +24,45 @@
       "level": 2,
       "members": [
         "CÓMO",
-        "CUÁNDO",
         "DÓNDE",
+        "CUÁNDO",
         "POR QUE"
       ]
     },
     "LÍDERES": {
       "level": 3,
       "members": [
-        "Ferdinand",
-        "Isabella",
-        "Suárez",
-        "González"
+        "FERDINAND",
+        "ISABELLA",
+        "SUÁREZ",
+        "GONZÁLEZ"
       ]
     }
   },
   "startingGroups": [
     [
       "VOY",
-      "ERES",
       "DÓNDE",
-      "PROFESORA"
+      "ISABELLA",
+      "ERES"
     ],
     [
-      "VAMOS",
-      "ES",
-      "CUÁNDO",
-      "WÁSHINGTON"
-    ],
-    [
-      "VAN",
       "SOY",
-      "POR QUE",
-      "PRESIDENTA"
+      "VAN",
+      "CÓMO",
+      "GONZÁLEZ"
     ],
     [
+      "SUÁREZ",
+      "ES",
       "VAS",
+      "POR QUE"
+    ],
+    [
+      "CUÁNDO",
+      "FERDINAND",
       "SOMOS",
-      "CÓMO",
-      "MAESTRA"
+      "VAMOS"
     ]
   ]
 }

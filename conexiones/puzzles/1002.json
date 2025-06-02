@@ -2,7 +2,7 @@
   "id": 1002,
   "puzzleName": "Semana, Alimentos, Astronomía, Numeros",
   "groups": {
-    "DíAS DE LA SEMANA": {
+    "DÍAS DE LA SEMANA": {
       "level": 0,
       "members": [
         "SÁBADO",
@@ -17,7 +17,7 @@
         "HUEVOS",
         "QUESO",
         "POLLO",
-        "CAMARóN"
+        "CAMARÓN"
       ]
     },
     "ENCONTRADO EN ASTRONOMÍA": {
@@ -29,7 +29,7 @@
         "COMETA"
       ]
     },
-    "NúMEROS": {
+    "NÚMEROS": {
       "level": 3,
       "members": [
         "DOS",
@@ -41,27 +41,27 @@
   },
   "startingGroups": [
     [
-      "SÁBADO",
+      "VEINTE",
       "QUESO",
       "ESTRELLA",
-      "VEINTE"
+      "DOMINGO"
     ],
     [
-      "JUEVES",
-      "POLLO",
+      "SÁBADO",
       "SOL",
+      "CAMARÓN",
       "DOS"
     ],
     [
-      "DOMINGO",
       "HUEVOS",
-      "COMETA",
-      "DIEZ"
+      "LUNES",
+      "DIEZ",
+      "COMETA"
     ],
     [
-      "LUNES",
-      "CAMARóN",
+      "POLLO",
       "LUNA",
+      "JUEVES",
       "SIETE"
     ]
   ]
