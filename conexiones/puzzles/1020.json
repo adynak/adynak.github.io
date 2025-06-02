@@ -41,28 +41,28 @@
   },
   "startingGroups": [
     [
-      "DIENTA",
-      "OJO",
-      "OREJA",
-      "NEZ"
-    ],
-    [
-      "PIE",
-      "PIERNA",
-      "TALON",
-      "RODILLA"
-    ],
-    [
-      "PLUGAR",
-      "UÑA",
       "DEDOS",
-      "PALMA"
+      "OJO",
+      "CODO",
+      "TALON"
+    ],
+    [
+      "DIENTA",
+      "PIE",
+      "UÑA",
+      "MUÑECA"
     ],
     [
       "BRAZO",
+      "PLUGAR",
+      "PIERNA",
+      "NEZ"
+    ],
+    [
+      "RODILLA",
       "MANO",
-      "CODO",
-      "MUÑECA"
+      "OREJA",
+      "PALMA"
     ]
   ]
 }
