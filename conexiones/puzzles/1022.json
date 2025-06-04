@@ -41,28 +41,28 @@
   },
   "startingGroups": [
     [
-      "PAN",
-      "CRUDO",
-      "MÚSICA",
-      "PREHISTÓRICO"
-    ],
-    [
       "HOY",
-      "CARNE",
-      "CONGELADO",
-      "BALENCEO"
+      "PAN",
+      "CANTADO",
+      "FRESCO"
     ],
     [
       "COCIDO",
-      "BAILAR",
-      "FUTURO",
-      "QUESO"
+      "CRUDO",
+      "QUESO",
+      "PASADO"
     ],
     [
-      "CANTADO",
+      "BAILAR",
+      "FUTURO",
+      "CONGELADO",
+      "MÚSICA"
+    ],
+    [
       "HUEVOS",
-      "FRESCO",
-      "PASADO"
+      "BALENCEO",
+      "PREHISTÓRICO",
+      "CARNE"
     ]
   ]
 }
