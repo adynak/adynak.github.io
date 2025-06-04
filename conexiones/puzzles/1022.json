@@ -1,0 +1,68 @@
+{
+  "id": 1022,
+  "puzzleName": "Comestibles, fiesta, tiempo",
+  "groups": {
+    "LISTA DE COMPRAS": {
+      "level": 0,
+      "members": [
+        "CARNE",
+        "QUESO",
+        "HUEVOS",
+        "PAN"
+      ]
+    },
+    "FIESTA": {
+      "level": 1,
+      "members": [
+        "MÚSICA",
+        "BAILAR",
+        "CANTADO",
+        "BALENCEO"
+      ]
+    },
+    "UNA CUESTIÓN DE TIEMPO": {
+      "level": 2,
+      "members": [
+        "PASADO",
+        "FUTURO",
+        "HOY",
+        "PREHISTÓRICO"
+      ]
+    },
+    "TIPOS DE ALIMENTOS": {
+      "level": 3,
+      "members": [
+        "CRUDO",
+        "COCIDO",
+        "FRESCO",
+        "CONGELADO"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "CARNE",
+      "QUESO",
+      "HUEVOS",
+      "PAN"
+    ],
+    [
+      "MÚSICA",
+      "BAILAR",
+      "CANTADO",
+      "BALENCEO"
+    ],
+    [
+      "PASADO",
+      "FUTURO",
+      "HOY",
+      "PREHISTÓRICO"
+    ],
+    [
+      "CRUDO",
+      "COCIDO",
+      "FRESCO",
+      "CONGELADO"
+    ]
+  ]
+}
