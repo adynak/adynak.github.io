@@ -41,28 +41,28 @@
   },
   "startingGroups": [
     [
-      "casado",
-      "asado",
-      "amarillo",
-      "monedro"
+      "CASADO",
+      "ASADO",
+      "AMARILLO",
+      "MONEDRO"
     ],
     [
-      "bolsa",
-      "naranja",
-      "hervido",
-      "solterdo"
+      "BOLSA",
+      "NARANJA",
+      "HERVIDO",
+      "SOLTERDO"
     ],
     [
-      "dorado",
-      "separado",
-      "paraguas",
-      "salteado"
+      "DORADO",
+      "SEPARADO",
+      "PARAGUAS",
+      "SALTEADO"
     ],
     [
-      "mirando",
-      "guantes",
-      "cocer al horno",
-      "mordo"
+      "MIRANDO",
+      "GUANTES",
+      "COCER AL HORNO",
+      "MORDO"
     ]
   ]
 }
