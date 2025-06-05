@@ -1,0 +1,68 @@
+{
+  "id": 1023,
+  "puzzleName": "Describe este rompecabezas para la tabla de contenido",
+  "groups": {
+    "LA GITANA DICE": {
+      "level": 0,
+      "members": [
+        "SUERTE",
+        "OPORTUNIDAD",
+        "DESTINO",
+        "FORTUNA"
+      ]
+    },
+    "ES TRABAJO": {
+      "level": 1,
+      "members": [
+        "FÁCIL",
+        "DIFÍCIL",
+        "IMPOSIBLE",
+        "DURA"
+      ]
+    },
+    "¡PONTE ALGO DE ROPA!": {
+      "level": 2,
+      "members": [
+        "LLEVAR",
+        "VESTIR",
+        "PONERSE",
+        "VESTIRSE"
+      ]
+    },
+    "ELEMENTAL MI QUERIDO WATSON": {
+      "level": 3,
+      "members": [
+        "ESCRIBIENDO",
+        "LEYENDO",
+        "CUENTAS",
+        "DIBUJANDO"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "dibujando",
+      "imposible",
+      "oportunidad",
+      "llevar"
+    ],
+    [
+      "suerte",
+      "ponerse",
+      "cuentas",
+      "dura"
+    ],
+    [
+      "vestir",
+      "escribiendo",
+      "fácil",
+      "fortuna"
+    ],
+    [
+      "difícil",
+      "destino",
+      "vestirse",
+      "leyendo"
+    ]
+  ]
+}
