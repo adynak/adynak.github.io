@@ -1,0 +1,68 @@
+{
+  "id": 1024,
+  "puzzleName": "Da lo mejor de ti.",
+  "groups": {
+    "PERFIL DE TINDER": {
+      "level": 0,
+      "members": [
+        "CASADO",
+        "SEPARADO",
+        "SOLTERDO",
+        "MIRANDO"
+      ]
+    },
+    "ACCESSORIOS": {
+      "level": 1,
+      "members": [
+        "BOLSA",
+        "PARAGUAS",
+        "GUANTES",
+        "MONEDRO"
+      ]
+    },
+    "LOS COLORES": {
+      "level": 2,
+      "members": [
+        "DORADO",
+        "AMARILLO",
+        "NARANJA",
+        "MORDO"
+      ]
+    },
+    "APPRENDIENDO A COCINAR": {
+      "level": 3,
+      "members": [
+        "SALTEADO",
+        "COCER AL HORNO",
+        "ASADO",
+        "HERVIDO"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "casado",
+      "asado",
+      "amarillo",
+      "monedro"
+    ],
+    [
+      "bolsa",
+      "naranja",
+      "hervido",
+      "solterdo"
+    ],
+    [
+      "dorado",
+      "separado",
+      "paraguas",
+      "salteado"
+    ],
+    [
+      "mirando",
+      "guantes",
+      "cocer al horno",
+      "mordo"
+    ]
+  ]
+}
