@@ -29,7 +29,6 @@ for (const difficulty in thisGame) {
     }
 }
 
-debugger;
 // Create 16 buttons for words
 for (let i = 1; i <= 16; i++) {
     const randomWord = randomSelection(wordList);
