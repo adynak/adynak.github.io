@@ -41,33 +41,6 @@
   },
   "startingGroups": [
     [
-<<<<<<< HEAD
-      "casado",
-      "asado",
-      "amarillo",
-      "monedro"
-    ],
-    [
-      "bolsa",
-      "naranja",
-      "hervido",
-      "solterdo"
-    ],
-    [
-      "dorado",
-      "separado",
-      "paraguas",
-      "salteado"
-    ],
-    [
-      "mirando",
-      "guantes",
-      "cocer al horno",
-      "mordo"
-    ]
-  ]
-}
-=======
       "CASADO",
       "ASADO",
       "AMARILLO",
@@ -93,4 +66,3 @@
     ]
   ]
 }
->>>>>>> e15ddd131c86d93569c7218d6aa562d89e43fdf3
