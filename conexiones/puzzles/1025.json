@@ -1,0 +1,68 @@
+{
+  "id": 1025,
+  "puzzleName": "Deseos, ayuda, descanso, cantidad",
+  "groups": {
+    "SENTIMENTAL": {
+      "level": 0,
+      "members": [
+        "QUERER",
+        "DESEAR",
+        "APETECER",
+        "ENCANTAR"
+      ]
+    },
+    "DAR UNA MANO": {
+      "level": 1,
+      "members": [
+        "AYUDAR",
+        "AUXILAR",
+        "ASISTAR",
+        "SOCORRER"
+      ]
+    },
+    "TOMAR UNA SIESTA": {
+      "level": 2,
+      "members": [
+        "DORMIR",
+        "DECANSAR",
+        "ACOSTARSE",
+        "REPOSAR"
+      ]
+    },
+    "NO ES MUCHO": {
+      "level": 3,
+      "members": [
+        "POCO",
+        "ESCASO",
+        "LIMITADO",
+        "CONTADO"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "DESEAR",
+      "ESCASO",
+      "DORMIR",
+      "SOCORRER"
+    ],
+    [
+      "ACOSTARSE",
+      "AUXILAR",
+      "QUERER",
+      "LIMITADO"
+    ],
+    [
+      "AYUDAR",
+      "APETECER",
+      "ASISTAR",
+      "REPOSAR"
+    ],
+    [
+      "CONTADO",
+      "DECANSAR",
+      "POCO",
+      "ENCANTAR"
+    ]
+  ]
+}
