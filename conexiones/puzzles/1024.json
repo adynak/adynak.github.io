@@ -41,6 +41,7 @@
   },
   "startingGroups": [
     [
+<<<<<<< HEAD
       "casado",
       "asado",
       "amarillo",
@@ -66,3 +67,30 @@
     ]
   ]
 }
+=======
+      "CASADO",
+      "ASADO",
+      "AMARILLO",
+      "MONEDRO"
+    ],
+    [
+      "BOLSA",
+      "NARANJA",
+      "HERVIDO",
+      "SOLTERDO"
+    ],
+    [
+      "DORADO",
+      "SEPARADO",
+      "PARAGUAS",
+      "SALTEADO"
+    ],
+    [
+      "MIRANDO",
+      "GUANTES",
+      "COCER AL HORNO",
+      "MORDO"
+    ]
+  ]
+}
+>>>>>>> e15ddd131c86d93569c7218d6aa562d89e43fdf3
