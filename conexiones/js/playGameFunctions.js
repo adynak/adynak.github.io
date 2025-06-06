@@ -254,18 +254,6 @@ function randomIntFromInterval(min, max) { // min and max included
 }
 
 function newGame() {
-    // console.log("old  gamePointers = ", gamePointers);
-    // console.log("playing this game:",gameID);
-    // let gameIndex = gamePointers.indexOf(gameID);
-    // console.log("gameIndex = ", gameIndex);
-    // console.log("remove ", gameID, " from ", gamePointers);
-    // gamePointers.splice(gameIndex, 1); 
-    // console.log("new gamePointers = ", gamePointers);
-    // gameID = randomIntFromInterval(0, gamePointers.length - 1);
-    // thisGame = json[0];
-    // updateGuesses();
-
-    // debugger;
     location.reload();
 }
 
@@ -380,7 +368,7 @@ function openModal(result) {
         var hint = [thisGame.easy[0],thisGame.medium[0],thisGame.harder[0],thisGame.difficult[0]] ;
         hint = hint.join("<br>");
         modalContent.innerHTML = `<div style="width: 300px;font-size: 20px;">
-                                    <h4>Pistas</h4>
+                                    <h4>Pistas Juego ${gameID + 1000}</h4>
                                     <br>
                                     <div class="hintCat" style="background-color:rgb(227,228,65);">
                                         ${thisGame.easy[0]}
