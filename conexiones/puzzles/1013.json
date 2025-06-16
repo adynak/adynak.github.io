@@ -1,45 +1,6 @@
 {
-  "id": 1013,
-  "puzzleName": "Cristalería, Verduras, Huerta, Bebidas",
-  "groups": {
-    "COMER CON": {
-      "level": 0,
-      "members": [
-        "TAZA",
-        "TENEDOR",
-        "VASO",
-        "CUCHILLO"
-      ]
-    },
-    "LAS LEGUMBREA": {
-      "level": 1,
-      "members": [
-        "CEBOLLA",
-        "PAPA",
-        "ESPINACA",
-        "ZANAHORIA"
-      ]
-    },
-    "LAS FRUTAS": {
-      "level": 2,
-      "members": [
-        "MANZANA",
-        "UVAS",
-        "NARANJA",
-        "FRESA"
-      ]
-    },
-    "LAS BEBIDAS": {
-      "level": 3,
-      "members": [
-        "CERVESA",
-        "VINO",
-        "REFRESCO",
-        "CAFÉ"
-      ]
-    }
-  },
-  "startingGroups": [
+  "id" : 1013,
+  "startingGroups" : [
     [
       "TAZA",
       "CAFÉ",
@@ -54,15 +15,54 @@
     ],
     [
       "TENEDOR",
-      "REFRESCO",
       "ESPINACA",
+      "REFRESCO",
       "NARANJA"
     ],
     [
-      "CUCHILLO",
       "CERVESA",
       "MANZANA",
-      "ZANAHORIA"
+      "ZANAHORIA",
+      "CUCHILLO"
     ]
-  ]
+  ],
+  "groups" : {
+    "LAS FRUTAS" : {
+      "level" : 2,
+      "members" : [
+        "NARANJA",
+        "FRESA",
+        "MANZANA",
+        "UVAS"
+      ]
+    },
+    "LAS LEGUMBREA" : {
+      "level" : 1,
+      "members" : [
+        "PAPA",
+        "ESPINACA",
+        "ZANAHORIA",
+        "CEBOLLA"
+      ]
+    },
+    "COMER CON" : {
+      "members" : [
+        "TENEDOR",
+        "TAZA",
+        "CUCHILLO",
+        "VASO"
+      ],
+      "level" : 0
+    },
+    "LAS BEBIDAS" : {
+      "level" : 3,
+      "members" : [
+        "CERVESA",
+        "VINO",
+        "CAFÉ",
+        "REFRESCO"
+      ]
+    }
+  },
+  "puzzleName" : "Cristalería, Verduras, Huerta, Bebidas"
 }
