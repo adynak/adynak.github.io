@@ -1,0 +1,68 @@
+{
+  "id": 999,
+  "puzzleName": "puzzle name",
+  "groups": {
+    "nombre del grupo 1": {
+      "level": 0,
+      "members": [
+        "palabra 11",
+        "palabra 12",
+        "palabra 13",
+        "palabra 14"
+      ]
+    },
+    "nombre del grupo 2": {
+      "level": 1,
+      "members": [
+        "palabra 21",
+        "palabra 22",
+        "palabra 23",
+        "palabra 24"
+      ]
+    },
+    "nombre del grupo 3": {
+      "level": 2,
+      "members": [
+        "palabra 31",
+        "palabra 32",
+        "palabra 33",
+        "palabra 34"
+      ]
+    },
+    "nombre del grupo 4": {
+      "level": 3,
+      "members": [
+        "palabra 41",
+        "palabra 42",
+        "palabra 43",
+        "palabra 44"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "palabra 11",
+      "palabra 12",
+      "palabra 13",
+      "palabra 14"
+    ],
+    [
+      "palabra 21",
+      "palabra 22",
+      "palabra 23",
+      "palabra 24"
+    ],
+    [
+      "palabra 31",
+      "palabra 32",
+      "palabra 33",
+      "palabra 34"
+    ],
+    [
+      "palabra 41",
+      "palabra 42",
+      "palabra 43",
+      "palabra 44"
+    ]
+  ]
+}
