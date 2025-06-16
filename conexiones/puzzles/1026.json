@@ -1,0 +1,68 @@
+{
+  "id": 1026,
+  "puzzleName": "Regiones Autónomas",
+  "groups": {
+    "CATALUÑA": {
+      "level": 0,
+      "members": [
+        "CATALUÑA",
+        "CATALÁN",
+        "SARDANA",
+        "BARCELONA"
+      ]
+    },
+    "PAIS VASCO": {
+      "level": 1,
+      "members": [
+        "EUSKERA",
+        "PAIS VASCO",
+        "VITORIA",
+        "AURRESKA"
+      ]
+    },
+    "CANTABRIA": {
+      "level": 2,
+      "members": [
+        "CANTABRIA",
+        "CASTILIAN",
+        "JOTA",
+        "SANTANDER"
+      ]
+    },
+    "ASTURIAS": {
+      "members": [
+        "BABLE",
+        "DANZA PRIMA",
+        "ASTURIAS",
+        "OVIEDO"
+      ],
+      "level": 3
+    }
+  },
+  "startingGroups": [
+    [
+      "CATALUÑA",
+      "EUSKERA",
+      "SANTANDER",
+      "BABLE"
+    ],
+    [
+      "CANTABRIA",
+      "BARCELONA",
+      "VITORIA",
+      "OVIEDO"
+    ],
+    [
+      "ASTURIAS",
+      "PAIS VASCO",
+      "CATALÁN",
+      "JOTA"
+    ],
+    [
+      "SARDANA",
+      "CASTILIAN",
+      "AURRESKA",
+      "DANZA PRIMA"
+    ]
+  ]
+}
