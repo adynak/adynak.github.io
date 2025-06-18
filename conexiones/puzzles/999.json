@@ -5,64 +5,64 @@
     "nombre del grupo 1": {
       "level": 0,
       "members": [
-        "palabra 11",
-        "palabra 12",
-        "palabra 13",
-        "palabra 14"
+        "PALABRA 11",
+        "PALABRA 12",
+        "PALABRA 13",
+        "PALABRA 14"
       ]
     },
     "nombre del grupo 2": {
       "level": 1,
       "members": [
-        "palabra 21",
-        "palabra 22",
-        "palabra 23",
-        "palabra 24"
+        "PALABRA 21",
+        "PALABRA 22",
+        "PALABRA 23",
+        "PALABRA 24"
       ]
     },
     "nombre del grupo 3": {
       "level": 2,
       "members": [
-        "palabra 31",
-        "palabra 32",
-        "palabra 33",
-        "palabra 34"
+        "PALABRA 31",
+        "PALABRA 32",
+        "PALABRA 33",
+        "PALABRA 34"
       ]
     },
     "nombre del grupo 4": {
       "level": 3,
       "members": [
-        "palabra 41",
-        "palabra 42",
-        "palabra 43",
-        "palabra 44"
+        "PALABRA 41",
+        "PALABRA 42",
+        "PALABRA 43",
+        "PALABRA 44"
       ]
     }
   },
   "startingGroups": [
     [
-      "palabra 11",
-      "palabra 12",
-      "palabra 13",
-      "palabra 14"
+      "PALABRA 11",
+      "PALABRA 12",
+      "PALABRA 13",
+      "PALABRA 14"
     ],
     [
-      "palabra 21",
-      "palabra 22",
-      "palabra 23",
-      "palabra 24"
+      "PALABRA 21",
+      "PALABRA 22",
+      "PALABRA 23",
+      "PALABRA 24"
     ],
     [
-      "palabra 31",
-      "palabra 32",
-      "palabra 33",
-      "palabra 34"
+      "PALABRA 31",
+      "PALABRA 32",
+      "PALABRA 33",
+      "PALABRA 34"
     ],
     [
-      "palabra 41",
-      "palabra 42",
-      "palabra 43",
-      "palabra 44"
+      "PALABRA 41",
+      "PALABRA 42",
+      "PALABRA 43",
+      "PALABRA 44"
     ]
   ]
 }
