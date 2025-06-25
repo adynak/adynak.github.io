@@ -1,0 +1,68 @@
+{
+  "id": 1027,
+  "puzzleName": "¡Vamos a la playa!",
+  "groups": {
+    "En el agua": {
+      "members": [
+        "PLAYA",
+        "MAR",
+        "ARENA",
+        "OLA"
+      ],
+      "level": 0
+    },
+    "ROPA PARA LA PLAYA": {
+      "level": 1,
+      "members": [
+        "SOMBRERO",
+        "CHANCLAS",
+        "BAÑADOR",
+        "TOALLA DE PLAYA"
+      ]
+    },
+    "Acesorios de playa": {
+      "level": 2,
+      "members": [
+        "BARCO",
+        "BOTE",
+        "VELERO",
+        "YATE"
+      ]
+    },
+    "ACESORIOS DE PLAYA": {
+      "level": 3,
+      "members": [
+        "GAFAS DE SOL",
+        "PARASOL",
+        "CESTA",
+        "ENFRIADOR"
+      ]
+    }
+  },
+  "startingGroups": [
+    [
+      "CESTA",
+      "CHANCLAS",
+      "VELERO",
+      "ARENA"
+    ],
+    [
+      "BAÑADOR",
+      "OLA",
+      "YATE",
+      "GAFAS DE SOL"
+    ],
+    [
+      "PLAYA",
+      "BOTE",
+      "ENFRIADOR",
+      "SOMBRERO"
+    ],
+    [
+      "PARASOL",
+      "MAR",
+      "TOALLA DE PLAYA",
+      "BARCO"
+    ]
+  ]
+}
