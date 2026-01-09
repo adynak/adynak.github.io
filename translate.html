@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LibreTranslate Test</title>
+</head>
+<body>
+  <h1>LibreTranslate API Testy</h1>
+  <button id="translateButton">Translate "Hello!" to Spanish</button>
+  <pre id="jsonOutput"></pre>
+
+  <script>
+async function translateText(text, targetLang) {
+  try {
+    const translator = await Translator.create({
+      sourceLanguage: 'en',
+      targetLanguage: targetLang,
+    });
+    const translation = await translator.translate(text);
+    return translation;
+  } catch (error) {
+    console.error('Translation failed, fallback to cloud API or manual handling', error);
+    return null;
+  }
+}
+
+document.querySelector('#translateButton').addEventListener('click', async () => {
+  // const inputText = document.querySelector('#inputText').value;
+  const inputText = "Hello world";  
+  const translatedText = await translateText(inputText, 'es'); // Spanish
+  console.log(translatedText || 'Translation not available.');
+  // document.querySelector('#outputText').textContent = translatedText || 'Translation not available.';
+});
+
+  </script>
+</body>
+</html>
