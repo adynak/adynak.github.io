@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pirotécnico</title>
+    <link rel="stylesheet" href="css/fireworks.css">
+</head>
+<body>
+
+    <a href="fireworks.html" class="header-link">
+        <div class="header">
+            <img src="images/logo.jpeg" alt="Logo">
+            <h1>Espectáculo pirotécnico "Vulcanum"</h1>
+        </div>
+    </a>
+    
+<!--     <div class="header">
+        <img src="images/logo.jpeg" alt="Logo">
+        <h1>Espectáculo pirotécnico "Vulcanum"</h1>
+        <a href="fireworks.html">Back to Gallery</a>
+    </div>
+ -->
+    <img id="photo" src="" alt="Photo">
+    <a id="prevBtn" class="prev-btn" href="#">Previous</a>
+    <a id="nextBtn" class="next-btn" href="#">Next</a>
+    
+    <script>
+        // Get the image name from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const imageName = urlParams.get('image');
+        
+        if (imageName) {
+            // Add the images/ folder path (plural)
+            document.getElementById('photo').src = `images/${imageName}`;
+            
+            // Extract the number from IMG_1.jpeg, IMG_2.jpeg, etc.
+            const numberMatch = imageName.match(/IMG_(\d+)/);
+            
+            if (numberMatch) {
+                const currentNum = parseInt(numberMatch[1]);
+                
+                // Next button - only show if not the last image (IMG_012)
+                if (currentNum < 12) {
+                    const nextNum = (currentNum + 1).toString().padStart(3, '0');
+                    const nextImage = `IMG_${nextNum}.jpeg`;
+                    document.getElementById('nextBtn').href = `photo.html?image=${nextImage}`;
+                    document.getElementById('nextBtn').style.display = 'inline-block';
+                } else {
+                    // Hide the Next button when at IMG_012
+                    document.getElementById('nextBtn').style.display = 'none';
+                }
+                
+                // Previous button - only show if not the first image (IMG_001)
+                if (currentNum > 1) {
+                    const prevNum = (currentNum - 1).toString().padStart(3, '0');
+                    const prevImage = `IMG_${prevNum}.jpeg`;
+                    document.getElementById('prevBtn').href = `photo.html?image=${prevImage}`;
+                    document.getElementById('prevBtn').style.display = 'inline-block';
+                } else {
+                    // Hide the Previous button when at IMG_001
+                    document.getElementById('prevBtn').style.display = 'none';
+                }
+            }
+        } else {
+            document.getElementById('photo').src = 'images/placeholder.jpg';
+            alert('No image specified');
+        }
+    </script>
+</body>
+</html>
