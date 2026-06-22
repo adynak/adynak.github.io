@@ -1,116 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Conversación</title>
-        <link rel="stylesheet" href="css/fireworks.css">
-        <style>
-            #photo {
-                max-width: 30%;
-                height: auto;
-            }
-
-            #photo.wide-image {
-                max-width: 85%;
-            }
-        </style>
-    </head>
-    <body>
-        <a href="conversacion.html" class="header-link">
-            <div class="header">
-                <img src="images/logo.jpeg" alt="Logo">
-                <h1>Conversación</h1>
-            </div>
-        </a>
-        <!-- <img id="photo" src="" alt="Photo"> -->
-        <figure id="photoFigure">
-            <img id="photo" src="" alt="Photo">
-            <figcaption id="photoCaption"></figcaption>
-        </figure>
-        <a id="prevBtn" class="prev-btn" href="#">Previous</a>
-        <a id="nextBtn" class="next-btn" href="#">Next</a>
-        <script>
-            const urlParams = new URLSearchParams(window.location.search);
-            const imageName = urlParams.get('image');
-            const photo = document.getElementById('photo');
-            const prevBtn = document.getElementById('prevBtn');
-            const nextBtn = document.getElementById('nextBtn');
-            const captions = {
-                "IMG_001.jpeg": "Bodega Vasconia",
-                "IMG_002.jpeg": "Bodega Vasconia Bar",
-                "IMG_003.jpeg": "Vinitus Tapas Bar",
-                "IMG_004.jpeg": "Tarta de Queso Vasca",
-                "IMG_005.jpeg": "Bilbao Pinchos",
-                "IMG_006.jpeg": "Tamaño real",
-                "IMG_007.jpeg": "Aldeanueva del Ebro",
-                "IMG_008.jpeg": "Ronda",
-                "IMG_009.jpeg": "Salmorejo",
-                "IMG_010.jpeg": "Costa Brava",
-                "IMG_011.jpeg": "Banyoles",
-                "IMG_012.jpeg": "Pausa obligatoria para hidratación",
-                "IMG_013.jpeg": "Via Verdes",
-                "IMG_014.jpeg": "Dali",
-                "IMG_015.jpeg": "Cata de Vinos",
-                "IMG_016.jpeg": "Barb debería trabajar aquí ...",
-                "IMG_017.jpeg": "... o tal vez aquí",
-                "IMG_018.jpeg": "Morcilla Tres Formas",
-                "IMG_019.jpeg": "Pinchos",
-                "IMG_020.jpeg": "Tortilla",
-                "IMG_021.jpeg": "Hornazo",
-                "IMG_022.jpeg": "Debajo del escritorio de mi habitación",
-                "IMG_023.jpeg": "Desayuno",
-                "IMG_024.jpeg": "No puedo ...",
-                "IMG_025.jpeg": "... controlarme.",
-                "IMG_026.jpeg": "Valencia",
-                "IMG_027.jpeg": "Salamanca"
-            };
-
-            function setCaption(name) {
-                document.getElementById('photoCaption').textContent = captions[name] || "";
-            }
-
-            function applyImageStyle(img, name) {
-                img.classList.remove('wide-image');
-                if (name === 'IMG_026.jpeg') {
-                    img.classList.add('wide-image');
-                }
-            }
-            if (imageName) {
-                photo.src = `images/${imageName}`;
-                photo.onload = () => {
-                    applyImageStyle(photo, imageName);
-                    setCaption(imageName);
-                };
-                if (photo.complete) {
-                    applyImageStyle(photo, imageName);
-                    setCaption(imageName);
-                }
-                const numberMatch = imageName.match(/IMG_(\d+)/);
-                if (numberMatch) {
-                    const currentNum = parseInt(numberMatch[1], 10);
-                    if (currentNum < 27) {
-                        const nextNum = (currentNum + 1).toString().padStart(3, '0');
-                        const nextImage = `IMG_${nextNum}.jpeg`;
-                        nextBtn.href = `photo.html?image=${nextImage}`;
-                        nextBtn.style.display = 'inline-block';
-                    } else {
-                        nextBtn.style.display = 'none';
-                    }
-                    if (currentNum > 1) {
-                        const prevNum = (currentNum - 1).toString().padStart(3, '0');
-                        const prevImage = `IMG_${prevNum}.jpeg`;
-                        prevBtn.href = `photo.html?image=${prevImage}`;
-                        prevBtn.style.display = 'inline-block';
-                    } else {
-                        prevBtn.style.display = 'none';
-                    }
-                }
-            } else {
-                photo.src = 'images/placeholder.jpg';
-                photo.onload = () => applyImageStyle(photo, 'placeholder.jpg');
-                if (photo.complete) applyImageStyle(photo, 'placeholder.jpg');
-                alert('No image specified');
-            }
-        </script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/fireworks.css">
+    <title>Conversación</title>
+</head>
+<body>
+   <div class="header">
+        <img src="images/logo.jpeg" alt="Logo">
+        <h1>Conversación</h1>
+    </div>
+    <div class="gallery" id="gallery"></div>
+    
+    <script>
+        const gallery = document.getElementById('gallery');
+        
+        for (let i = 1; i <= 27; i++) {
+            const num = i.toString().padStart(3, '0');
+            const imageName = `IMG_${num}.jpeg`;
+            
+            const link = document.createElement('a');
+            link.href = `photo.html?image=${imageName}`;
+            
+            const img = document.createElement('img');
+            img.src = `images/${imageName}`;
+            img.alt = `Photo ${i}`;
+            
+            link.appendChild(img);
+            gallery.appendChild(link);
+        }
+    </script>
+</body>
 </html>
