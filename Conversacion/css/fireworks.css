@@ -1,0 +1,95 @@
+body { 
+    text-align: center; 
+    margin: 20px; 
+    position: relative;
+}
+/*img { 
+    max-width: 30%; 
+    height: auto; 
+}*/
+a { 
+    display: block; 
+    margin-top: 20px; 
+}
+.next-btn {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+.prev-btn {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+.next-btn:hover {
+    background: #555;
+}
+.prev-btn:hover {
+    background: #555;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.header img { 
+    height: 60px; 
+    width: auto; 
+}
+.header h1 { 
+    margin: 0; 
+}
+.gallery { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
+}
+.gallery a { 
+    display: inline-block; 
+}
+.gallery img { 
+    max-width: 150px; 
+    height: auto; 
+    border: 1px solid #ddd; 
+}
+.header-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.header-link h1 {
+    color: inherit;
+}
+
+#photo {
+    max-width: 50%;
+    height: auto;
+}
+
+#photo.wide-image {
+    max-width: 85%;
+}
