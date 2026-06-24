@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/fireworks.css">
     <title>Conversación</title>
+    <style>
+        #done {
+            display: none;
+            margin: 16px 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #0a7a0a;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-
-    <div id="done" style="display:none;">Done</div>
-
-   <!-- <div class="header">
+   <div class="header">
         <img src="images/logo.jpeg" alt="Logo">
         <h1>Conversación</h1>
-    </div> -->
+    </div>
+
+    <div id="done">Done</div>
     <div class="gallery" id="gallery"></div>
     
     <script>
         const gallery = document.getElementById('gallery');
+        const done = document.getElementById('done');
         
         for (let i = 1; i <= 27; i++) {
             const num = i.toString().padStart(3, '0');
@@ -36,12 +46,10 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./service-worker.js');
         }
-    </script>
-    <script>
-  window.addEventListener('load', () => {
-    document.getElementById('done').style.display = 'block';
-  });
-</script>
 
+        window.addEventListener('load', () => {
+            done.style.display = 'block';
+        });
+    </script>
 </body>
 </html>
