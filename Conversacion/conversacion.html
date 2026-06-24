@@ -21,7 +21,10 @@
         <h1>Conversación</h1>
     </div>
 
-    <div id="done">Done</div>
+<div id="done" style="display:none; background:#dff7df; padding:12px; margin:16px 0; text-align:center; font-size:20px; font-weight:bold;">
+  Done
+</div>
+
     <div class="gallery" id="gallery"></div>
     
     <script>
@@ -47,9 +50,12 @@
             navigator.serviceWorker.register('./service-worker.js');
         }
 
-        window.addEventListener('load', () => {
-            done.style.display = 'block';
-        });
+       window.addEventListener('load', () => {
+  const done = document.getElementById('done');
+  done.style.display = 'block';
+  console.log('Page loaded, showing Done');
+});
+
     </script>
 </body>
 </html>
