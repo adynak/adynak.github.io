@@ -11,10 +11,11 @@
     </style>
 </head>
 <body>
-    <div class="header" id="header">
-        <img src="images/logo.jpeg" alt="Logo">
-        <h1>Conversación</h1>
-    </div>
+    <div id="titlebar" class="header">
+    <img src="images/logo.jpeg" alt="Logo">
+    <h1>Conversación</h1>
+</div>
+
 
     <div class="gallery" id="gallery"></div>
     
@@ -41,9 +42,10 @@
             navigator.serviceWorker.register('./service-worker.js');
         }
 
-        window.addEventListener('load', () => {
-            header.style.display = 'block';
-        });
+       window.addEventListener('load', () => {
+    document.getElementById('titlebar').style.display = 'flex';
+});
+
     </script>
 </body>
 </html>
