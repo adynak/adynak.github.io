@@ -4,48 +4,33 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/fireworks.css">
     <title>Conversación</title>
-    <style>
-        .header {
-            display: none;
-        }
-    </style>
 </head>
 <body>
-    <div id="titlebar" class="header">
-    <img src="images/logo.jpeg" alt="Logo">
-    <h1>Conversación</h1>
-</div>
-
+    <div class="header">
+        <img src="images/logo.jpeg" alt="Logo">
+        <h1>Conversación</h1>
+    </div>
 
     <div class="gallery" id="gallery"></div>
-    
+
     <script>
         const gallery = document.getElementById('gallery');
-        const header = document.getElementById('header');
-        
-        for (let i = 1; i <= 27; i++) {
+
+        for (let i = 1; i <= 24; i++) {
             const num = i.toString().padStart(3, '0');
             const imageName = `IMG_${num}.jpeg`;
-            
+
             const link = document.createElement('a');
             link.href = `photo.html?image=${imageName}`;
-            
+
             const img = document.createElement('img');
-            img.src = `images/${imageName}`;
+            img.src = `images/thumbnails/${imageName}`;
             img.alt = `Photo ${i}`;
-            
+            img.loading = 'lazy';
+
             link.appendChild(img);
             gallery.appendChild(link);
         }
-
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./service-worker.js');
-        }
-
-       window.addEventListener('load', () => {
-    document.getElementById('titlebar').style.display = 'flex';
-});
-
     </script>
 </body>
 </html>
